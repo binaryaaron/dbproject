@@ -1,0 +1,22 @@
+CREATE TABLE `vendors` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `company_name` varchar(255) DEFAULT NULL,
+  `primary_contact_name` varchar(255) DEFAULT NULL,
+  `phone` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `company_address` varchar(255) DEFAULT NULL,
+  `company_code` varchar(255) DEFAULT NULL,
+  `company_login_id` varchar(255) DEFAULT NULL,
+  `company_login_password` varchar(255) DEFAULT NULL,
+  `is_admin` int(11) DEFAULT '0',
+  `validated` int(11) DEFAULT '0',
+  `active` int(11) DEFAULT '0',
+  `additional_info` varchar(255) DEFAULT NULL,
+  `ds_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `phone` (`phone`),
+  KEY `email` (`email`),
+  KEY `ds_id` (`ds_id`),
+  KEY `company_login_id` (`company_login_id`),
+  KEY `company_code` (`company_code`)
+) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=latin1;
