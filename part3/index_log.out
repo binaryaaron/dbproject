@@ -1,0 +1,756 @@
+mysql> source ./index.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++---------------+------------------+------+-----+-------------------+----------------+
+| Field         | Type             | Null | Key | Default           | Extra          |
++---------------+------------------+------+-----+-------------------+----------------+
+| id            | int(11) unsigned | NO   | PRI | NULL              | auto_increment |
+| start_lat     | varchar(255)     | YES  |     | NULL              |                |
+| start_long    | varchar(255)     | YES  |     | NULL              |                |
+| end_lat       | varchar(255)     | YES  |     | NULL              |                |
+| end_long      | varchar(255)     | YES  |     | NULL              |                |
+| account_id    | int(11)          | YES  |     | NULL              |                |
+| user_id       | int(11)          | YES  |     | NULL              |                |
+| left_app      | int(11)          | YES  |     | NULL              |                |
+| timestamp     | timestamp        | YES  |     | CURRENT_TIMESTAMP |                |
+| offline_drive | int(11)          | YES  |     | 0                 |                |
+| start_addr    | text             | YES  |     | NULL              |                |
+| end_addr      | text             | YES  |     | NULL              |                |
++---------------+------------------+------+-----+-------------------+----------------+
+12 rows in set (0.00 sec)
+
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+| Field               | Type             | Null | Key | Default           | Extra                       |
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+| id                  | int(11) unsigned | NO   | PRI | NULL              | auto_increment              |
+| name                | varchar(255)     | YES  |     | NULL              |                             |
+| gender              | varchar(255)     | YES  |     | NULL              |                             |
+| email               | varchar(255)     | YES  |     | NULL              |                             |
+| phone               | varchar(255)     | YES  |     | NULL              |                             |
+| password            | varchar(255)     | YES  |     | NULL              |                             |
+| birthdate           | varchar(255)     | YES  |     | NULL              |                             |
+| key                 | varchar(255)     | YES  | MUL | NULL              |                             |
+| logged_in           | int(11)          | YES  |     | NULL              |                             |
+| account_id          | int(11)          | YES  |     | 1                 |                             |
+| phone_type          | varchar(255)     | YES  |     |                   |                             |
+| phone_id            | text             | YES  |     | NULL              |                             |
+| white_list          | text             | YES  |     | NULL              |                             |
+| user_type           | varchar(255)     | YES  |     | NULL              |                             |
+| is_driving          | int(11)          | YES  |     | -1                |                             |
+| active              | int(11)          | YES  |     | NULL              |                             |
+| tester              | int(11)          | YES  |     | 1                 |                             |
+| last_logged_in      | timestamp        | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| settings            | text             | YES  |     | NULL              |                             |
+| terms_accepted      | int(11)          | YES  |     | 0                 |                             |
+| terms_accepted_date | varchar(255)     | YES  |     | NULL              |                             |
+| plan                | varchar(255)     | YES  |     | NULL              |                             |
+| setup_complete      | int(11)          | YES  |     | 0                 |                             |
+| admin               | int(11)          | YES  |     | NULL              |                             |
+| ds_id               | varchar(255)     | YES  | MUL | NULL              |                             |
+| drivers_log_user    | int(11)          | YES  |     | 0                 |                             |
+| twitter_id          | bigint(32)       | YES  |     | NULL              |                             |
+| facebook_id         | bigint(32)       | YES  |     | NULL              |                             |
+| _deleted            | int(11)          | YES  |     | 0                 |                             |
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+29 rows in set (0.00 sec)
+
++---------------------+------------------+------+-----+-------------------+----------------+
+| Field               | Type             | Null | Key | Default           | Extra          |
++---------------------+------------------+------+-----+-------------------+----------------+
+| id                  | int(11) unsigned | NO   | PRI | NULL              | auto_increment |
+| lat                 | varchar(255)     | YES  |     |                   |                |
+| long                | varchar(255)     | YES  |     | NULL              |                |
+| requesting_guardian | int(11)          | YES  |     | NULL              |                |
+| driver_id           | int(11)          | YES  |     | NULL              |                |
+| account_id          | int(11)          | YES  |     | NULL              |                |
+| timestamp           | timestamp        | NO   |     | CURRENT_TIMESTAMP |                |
+| address             | text             | YES  |     | NULL              |                |
++---------------------+------------------+------+-----+-------------------+----------------+
+8 rows in set (0.00 sec)
+
++------------+---------+--------------+
+| account_id | user_id | total_drives |
++------------+---------+--------------+
+|          1 |      23 |            1 |
+|          1 |      29 |            2 |
+|          1 |      46 |            6 |
+|          1 |      65 |            1 |
+|          1 |      66 |            4 |
+|          1 |      67 |            6 |
+|          1 |     220 |            3 |
+|          1 |     221 |            9 |
+|          1 |     224 |            1 |
+|          1 |     227 |            7 |
+|          1 |     229 |            1 |
+|          1 |     230 |            2 |
+|          2 |      68 |           38 |
+|          2 |      69 |           74 |
+|          2 |      87 |            1 |
+|          2 |      90 |           46 |
+|          2 |     209 |           11 |
+|          4 |      85 |            4 |
+|          8 |      94 |            1 |
+|          9 |      95 |            2 |
+|         21 |     107 |            7 |
+|         22 |     108 |            4 |
+|         22 |     209 |           36 |
+|         22 |     218 |           11 |
+|         23 |     113 |            1 |
+|         23 |     116 |            1 |
+|         26 |     122 |            2 |
+|         26 |     136 |            1 |
+|         26 |     142 |            4 |
+|         26 |     143 |            3 |
+|         28 |     188 |            1 |
+|         28 |     190 |            1 |
+|         28 |     191 |            7 |
+|         28 |     193 |            1 |
+|         28 |     194 |           12 |
+|         28 |     195 |            1 |
+|         29 |     160 |            1 |
+|         29 |     201 |            5 |
+|         29 |     202 |            7 |
+|         30 |     157 |            1 |
+|         30 |     158 |            4 |
+|         31 |     207 |           22 |
+|         32 |     208 |            2 |
+|         33 |     212 |           11 |
+|         33 |     214 |            1 |
+|         33 |     215 |            4 |
+|         33 |     216 |            1 |
+|         33 |     217 |            7 |
+|         33 |     235 |            8 |
+|         33 |     239 |          124 |
+|         33 |     258 |           28 |
+|         33 |     259 |            1 |
+|         34 |     260 |          161 |
+|         35 |     262 |            1 |
+|         35 |     263 |            3 |
+|         35 |     272 |            1 |
+|         36 |     273 |           49 |
+|         36 |     274 |           50 |
+|         36 |     275 |            1 |
+|         36 |     277 |            6 |
+|         38 |     278 |            1 |
+|         38 |     296 |            1 |
+|         44 |     311 |           37 |
+|         44 |     321 |           95 |
+|         44 |     329 |           26 |
+|         44 |     349 |            1 |
+|         45 |     314 |           50 |
+|         46 |     315 |            1 |
+|         48 |     323 |            6 |
+|         50 |     325 |           14 |
+|         51 |     327 |            1 |
+|         52 |     328 |            9 |
+|         53 |     335 |            1 |
+|         54 |     336 |            5 |
+|         59 |     347 |            3 |
+|         60 |     350 |            1 |
+|         61 |     351 |            1 |
+|         62 |     352 |           11 |
+|         64 |     359 |            1 |
+|         65 |     357 |            2 |
+|         65 |     360 |            3 |
+|         65 |     361 |            9 |
+|         66 |     361 |            3 |
+|         66 |     363 |            1 |
+|         67 |     364 |            6 |
+|         67 |     430 |            9 |
+|         68 |     365 |            1 |
+|         68 |     372 |            1 |
+|         68 |     378 |            1 |
+|         68 |     379 |            9 |
+|         70 |     368 |           19 |
+|         73 |     404 |            3 |
+|         73 |     405 |            2 |
+|         75 |     412 |           37 |
+|         78 |     415 |            6 |
+|         81 |     418 |            6 |
+|         82 |     419 |            1 |
+|        100 |     423 |           12 |
+|        101 |     426 |            8 |
+|        101 |     429 |            1 |
+|        102 |     428 |           18 |
+|        102 |     431 |            3 |
+|        104 |     433 |            5 |
+|        105 |     434 |            4 |
+|        109 |     438 |           64 |
+|        109 |     457 |          146 |
+|        109 |     498 |            1 |
+|        111 |     440 |           11 |
+|        111 |     467 |           38 |
+|        112 |     459 |            2 |
+|        113 |     468 |            3 |
+|        115 |     472 |            1 |
+|        116 |     430 |            4 |
+|        116 |     497 |            1 |
+|        116 |     507 |            4 |
+|        116 |     516 |          100 |
+|        116 |     517 |           28 |
+|        118 |     525 |            6 |
+|        121 |     536 |            3 |
+|        123 |     538 |            7 |
+|        123 |     540 |            5 |
+|        124 |     544 |            2 |
+|        124 |     550 |            3 |
+|        124 |     552 |          133 |
+|        125 |     553 |            5 |
+|        126 |     557 |           12 |
+|        126 |     558 |           13 |
+|        126 |     559 |            1 |
+|        127 |     561 |            1 |
+|        128 |     564 |           11 |
+|        129 |     565 |           41 |
+|        129 |     566 |            2 |
+|        129 |     568 |            3 |
+|        129 |     570 |            2 |
+|        131 |     582 |           88 |
+|        131 |     583 |            2 |
+|        131 |     597 |           43 |
+|        133 |     589 |            4 |
+|        134 |     591 |           13 |
+|        137 |     595 |            5 |
+|        138 |     596 |            1 |
+|        140 |     599 |            1 |
+|        143 |     605 |           12 |
+|        143 |     613 |            1 |
++------------+---------+--------------+
+144 rows in set (0.00 sec)
+
++------------+------------------+
+| account_id | users_in_account |
++------------+------------------+
+|          7 |                1 |
+|          8 |                1 |
+|         10 |                1 |
+|         21 |                1 |
+|         22 |                2 |
+|         27 |                1 |
+|         31 |                1 |
+|         32 |                1 |
+|         46 |                1 |
+|         47 |                1 |
+|         50 |                1 |
+|         51 |                1 |
+|         52 |                1 |
+|         53 |                1 |
+|         54 |                1 |
+|         55 |                1 |
+|         61 |                1 |
+|         62 |                1 |
+|         63 |                1 |
+|         67 |                1 |
+|         70 |                1 |
+|         72 |                1 |
+|         74 |                1 |
+|         76 |                1 |
+|         77 |                1 |
+|         78 |                1 |
+|         79 |                1 |
+|         80 |                1 |
+|         81 |                1 |
+|         82 |                1 |
+|         83 |                1 |
+|        100 |                2 |
+|        102 |                3 |
+|        103 |                1 |
+|        104 |                1 |
+|        105 |                1 |
+|        106 |                1 |
+|        107 |                1 |
+|        108 |                1 |
+|        112 |                1 |
+|        113 |                1 |
+|        114 |                1 |
+|        115 |                1 |
+|        116 |                1 |
+|        117 |                1 |
+|        118 |                1 |
+|        119 |                1 |
+|        123 |                2 |
+|        125 |                1 |
+|        127 |                2 |
+|        128 |                1 |
+|        130 |                1 |
+|        133 |                1 |
+|        134 |                1 |
+|        135 |                1 |
+|        136 |                1 |
+|        137 |                1 |
+|        138 |                1 |
+|        139 |                2 |
+|        140 |                1 |
+|        141 |                1 |
+|        142 |                1 |
++------------+------------------+
+62 rows in set (0.00 sec)
+
++------------+-----------------+
+| account_id | number_of_pings |
++------------+-----------------+
+|          1 |              16 |
+|          2 |              19 |
+|         22 |               7 |
+|         23 |               5 |
+|         26 |             107 |
+|         28 |               5 |
+|         29 |              20 |
+|         31 |               2 |
+|         33 |              11 |
+|         35 |               7 |
+|         36 |               7 |
+|         38 |               6 |
+|         44 |              13 |
+|         53 |               1 |
+|         62 |               1 |
+|         64 |               2 |
+|         65 |              12 |
+|         66 |               1 |
+|         67 |              11 |
+|         68 |               5 |
+|         73 |               2 |
+|        101 |               2 |
+|        102 |              23 |
+|        109 |               6 |
+|        111 |              90 |
+|        116 |               1 |
+|        127 |               1 |
+|        128 |               8 |
+|        129 |               1 |
+|        131 |               5 |
+|        140 |               2 |
++------------+-----------------+
+31 rows in set (0.00 sec)
+
++----------+------------+-------------------------------------------------------------------------------------------------------+
+| Query_ID | Duration   | Query                                                                                                 |
++----------+------------+-------------------------------------------------------------------------------------------------------+
+|        6 | 0.02639400 | alter table users drop index account_id                                                               |
+|        7 | 0.02347025 | alter table users drop index email                                                                    |
+|        8 | 0.02340675 | alter table users drop index phone                                                                    |
+|        9 | 0.02341250 | alter table users drop index ds_id                                                                    |
+|       10 | 0.02373175 | alter table users drop index twitter_id                                                               |
+|       11 | 0.02382375 | alter table users drop index facebook_id                                                              |
+|       12 | 0.02515500 | alter table ping_results drop index requesting_guardian                                               |
+|       13 | 0.02330775 | alter table ping_results drop index driver_id                                                         |
+|       14 | 0.02560150 | alter table ping_results drop index account_id                                                        |
+|       15 | 0.00050100 | describe driving_record                                                                               |
+|       16 | 0.00079100 | describe users                                                                                        |
+|       17 | 0.00045500 | describe ping_results                                                                                 |
+|       18 | 0.00188050 | select account_id, user_id, count(*) as total_drives from driving_record group by account_id, user_id |
+|       19 | 0.00047650 | select account_id, count(*) as users_in_account from users group by account_id                        |
+|       20 | 0.00047175 | select account_id, count(*) as number_of_pings from ping_results group by account_id                  |
++----------+------------+-------------------------------------------------------------------------------------------------------+
+15 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++---------------+------------------+------+-----+-------------------+----------------+
+| Field         | Type             | Null | Key | Default           | Extra          |
++---------------+------------------+------+-----+-------------------+----------------+
+| id            | int(11) unsigned | NO   | PRI | NULL              | auto_increment |
+| start_lat     | varchar(255)     | YES  |     | NULL              |                |
+| start_long    | varchar(255)     | YES  |     | NULL              |                |
+| end_lat       | varchar(255)     | YES  |     | NULL              |                |
+| end_long      | varchar(255)     | YES  |     | NULL              |                |
+| account_id    | int(11)          | YES  | MUL | NULL              |                |
+| user_id       | int(11)          | YES  | MUL | NULL              |                |
+| left_app      | int(11)          | YES  |     | NULL              |                |
+| timestamp     | timestamp        | YES  |     | CURRENT_TIMESTAMP |                |
+| offline_drive | int(11)          | YES  |     | 0                 |                |
+| start_addr    | text             | YES  |     | NULL              |                |
+| end_addr      | text             | YES  |     | NULL              |                |
++---------------+------------------+------+-----+-------------------+----------------+
+12 rows in set (0.01 sec)
+
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+| Field               | Type             | Null | Key | Default           | Extra                       |
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+| id                  | int(11) unsigned | NO   | PRI | NULL              | auto_increment              |
+| name                | varchar(255)     | YES  |     | NULL              |                             |
+| gender              | varchar(255)     | YES  |     | NULL              |                             |
+| email               | varchar(255)     | YES  | MUL | NULL              |                             |
+| phone               | varchar(255)     | YES  | MUL | NULL              |                             |
+| password            | varchar(255)     | YES  |     | NULL              |                             |
+| birthdate           | varchar(255)     | YES  |     | NULL              |                             |
+| key                 | varchar(255)     | YES  | MUL | NULL              |                             |
+| logged_in           | int(11)          | YES  |     | NULL              |                             |
+| account_id          | int(11)          | YES  | MUL | 1                 |                             |
+| phone_type          | varchar(255)     | YES  |     |                   |                             |
+| phone_id            | text             | YES  |     | NULL              |                             |
+| white_list          | text             | YES  |     | NULL              |                             |
+| user_type           | varchar(255)     | YES  |     | NULL              |                             |
+| is_driving          | int(11)          | YES  |     | -1                |                             |
+| active              | int(11)          | YES  |     | NULL              |                             |
+| tester              | int(11)          | YES  |     | 1                 |                             |
+| last_logged_in      | timestamp        | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| settings            | text             | YES  |     | NULL              |                             |
+| terms_accepted      | int(11)          | YES  |     | 0                 |                             |
+| terms_accepted_date | varchar(255)     | YES  |     | NULL              |                             |
+| plan                | varchar(255)     | YES  |     | NULL              |                             |
+| setup_complete      | int(11)          | YES  |     | 0                 |                             |
+| admin               | int(11)          | YES  |     | NULL              |                             |
+| ds_id               | varchar(255)     | YES  | MUL | NULL              |                             |
+| drivers_log_user    | int(11)          | YES  |     | 0                 |                             |
+| twitter_id          | bigint(32)       | YES  | MUL | NULL              |                             |
+| facebook_id         | bigint(32)       | YES  | MUL | NULL              |                             |
+| _deleted            | int(11)          | YES  |     | 0                 |                             |
++---------------------+------------------+------+-----+-------------------+-----------------------------+
+29 rows in set (0.00 sec)
+
++---------------------+------------------+------+-----+-------------------+----------------+
+| Field               | Type             | Null | Key | Default           | Extra          |
++---------------------+------------------+------+-----+-------------------+----------------+
+| id                  | int(11) unsigned | NO   | PRI | NULL              | auto_increment |
+| lat                 | varchar(255)     | YES  |     |                   |                |
+| long                | varchar(255)     | YES  |     | NULL              |                |
+| requesting_guardian | int(11)          | YES  | MUL | NULL              |                |
+| driver_id           | int(11)          | YES  | MUL | NULL              |                |
+| account_id          | int(11)          | YES  | MUL | NULL              |                |
+| timestamp           | timestamp        | NO   |     | CURRENT_TIMESTAMP |                |
+| address             | text             | YES  |     | NULL              |                |
++---------------------+------------------+------+-----+-------------------+----------------+
+8 rows in set (0.00 sec)
+
++------------+---------+--------------+
+| account_id | user_id | total_drives |
++------------+---------+--------------+
+|          1 |      23 |            1 |
+|          1 |      29 |            2 |
+|          1 |      46 |            6 |
+|          1 |      65 |            1 |
+|          1 |      66 |            4 |
+|          1 |      67 |            6 |
+|          1 |     220 |            3 |
+|          1 |     221 |            9 |
+|          1 |     224 |            1 |
+|          1 |     227 |            7 |
+|          1 |     229 |            1 |
+|          1 |     230 |            2 |
+|          2 |      68 |           38 |
+|          2 |      69 |           74 |
+|          2 |      87 |            1 |
+|          2 |      90 |           46 |
+|          2 |     209 |           11 |
+|          4 |      85 |            4 |
+|          8 |      94 |            1 |
+|          9 |      95 |            2 |
+|         21 |     107 |            7 |
+|         22 |     108 |            4 |
+|         22 |     209 |           36 |
+|         22 |     218 |           11 |
+|         23 |     113 |            1 |
+|         23 |     116 |            1 |
+|         26 |     122 |            2 |
+|         26 |     136 |            1 |
+|         26 |     142 |            4 |
+|         26 |     143 |            3 |
+|         28 |     188 |            1 |
+|         28 |     190 |            1 |
+|         28 |     191 |            7 |
+|         28 |     193 |            1 |
+|         28 |     194 |           12 |
+|         28 |     195 |            1 |
+|         29 |     160 |            1 |
+|         29 |     201 |            5 |
+|         29 |     202 |            7 |
+|         30 |     157 |            1 |
+|         30 |     158 |            4 |
+|         31 |     207 |           22 |
+|         32 |     208 |            2 |
+|         33 |     212 |           11 |
+|         33 |     214 |            1 |
+|         33 |     215 |            4 |
+|         33 |     216 |            1 |
+|         33 |     217 |            7 |
+|         33 |     235 |            8 |
+|         33 |     239 |          124 |
+|         33 |     258 |           28 |
+|         33 |     259 |            1 |
+|         34 |     260 |          161 |
+|         35 |     262 |            1 |
+|         35 |     263 |            3 |
+|         35 |     272 |            1 |
+|         36 |     273 |           49 |
+|         36 |     274 |           50 |
+|         36 |     275 |            1 |
+|         36 |     277 |            6 |
+|         38 |     278 |            1 |
+|         38 |     296 |            1 |
+|         44 |     311 |           37 |
+|         44 |     321 |           95 |
+|         44 |     329 |           26 |
+|         44 |     349 |            1 |
+|         45 |     314 |           50 |
+|         46 |     315 |            1 |
+|         48 |     323 |            6 |
+|         50 |     325 |           14 |
+|         51 |     327 |            1 |
+|         52 |     328 |            9 |
+|         53 |     335 |            1 |
+|         54 |     336 |            5 |
+|         59 |     347 |            3 |
+|         60 |     350 |            1 |
+|         61 |     351 |            1 |
+|         62 |     352 |           11 |
+|         64 |     359 |            1 |
+|         65 |     357 |            2 |
+|         65 |     360 |            3 |
+|         65 |     361 |            9 |
+|         66 |     361 |            3 |
+|         66 |     363 |            1 |
+|         67 |     364 |            6 |
+|         67 |     430 |            9 |
+|         68 |     365 |            1 |
+|         68 |     372 |            1 |
+|         68 |     378 |            1 |
+|         68 |     379 |            9 |
+|         70 |     368 |           19 |
+|         73 |     404 |            3 |
+|         73 |     405 |            2 |
+|         75 |     412 |           37 |
+|         78 |     415 |            6 |
+|         81 |     418 |            6 |
+|         82 |     419 |            1 |
+|        100 |     423 |           12 |
+|        101 |     426 |            8 |
+|        101 |     429 |            1 |
+|        102 |     428 |           18 |
+|        102 |     431 |            3 |
+|        104 |     433 |            5 |
+|        105 |     434 |            4 |
+|        109 |     438 |           64 |
+|        109 |     457 |          146 |
+|        109 |     498 |            1 |
+|        111 |     440 |           11 |
+|        111 |     467 |           38 |
+|        112 |     459 |            2 |
+|        113 |     468 |            3 |
+|        115 |     472 |            1 |
+|        116 |     430 |            4 |
+|        116 |     497 |            1 |
+|        116 |     507 |            4 |
+|        116 |     516 |          100 |
+|        116 |     517 |           28 |
+|        118 |     525 |            6 |
+|        121 |     536 |            3 |
+|        123 |     538 |            7 |
+|        123 |     540 |            5 |
+|        124 |     544 |            2 |
+|        124 |     550 |            3 |
+|        124 |     552 |          133 |
+|        125 |     553 |            5 |
+|        126 |     557 |           12 |
+|        126 |     558 |           13 |
+|        126 |     559 |            1 |
+|        127 |     561 |            1 |
+|        128 |     564 |           11 |
+|        129 |     565 |           41 |
+|        129 |     566 |            2 |
+|        129 |     568 |            3 |
+|        129 |     570 |            2 |
+|        131 |     582 |           88 |
+|        131 |     583 |            2 |
+|        131 |     597 |           43 |
+|        133 |     589 |            4 |
+|        134 |     591 |           13 |
+|        137 |     595 |            5 |
+|        138 |     596 |            1 |
+|        140 |     599 |            1 |
+|        143 |     605 |           12 |
+|        143 |     613 |            1 |
++------------+---------+--------------+
+144 rows in set (0.00 sec)
+
++------------+------------------+
+| account_id | users_in_account |
++------------+------------------+
+|          7 |                1 |
+|          8 |                1 |
+|         10 |                1 |
+|         21 |                1 |
+|         22 |                2 |
+|         27 |                1 |
+|         31 |                1 |
+|         32 |                1 |
+|         46 |                1 |
+|         47 |                1 |
+|         50 |                1 |
+|         51 |                1 |
+|         52 |                1 |
+|         53 |                1 |
+|         54 |                1 |
+|         55 |                1 |
+|         61 |                1 |
+|         62 |                1 |
+|         63 |                1 |
+|         67 |                1 |
+|         70 |                1 |
+|         72 |                1 |
+|         74 |                1 |
+|         76 |                1 |
+|         77 |                1 |
+|         78 |                1 |
+|         79 |                1 |
+|         80 |                1 |
+|         81 |                1 |
+|         82 |                1 |
+|         83 |                1 |
+|        100 |                2 |
+|        102 |                3 |
+|        103 |                1 |
+|        104 |                1 |
+|        105 |                1 |
+|        106 |                1 |
+|        107 |                1 |
+|        108 |                1 |
+|        112 |                1 |
+|        113 |                1 |
+|        114 |                1 |
+|        115 |                1 |
+|        116 |                1 |
+|        117 |                1 |
+|        118 |                1 |
+|        119 |                1 |
+|        123 |                2 |
+|        125 |                1 |
+|        127 |                2 |
+|        128 |                1 |
+|        130 |                1 |
+|        133 |                1 |
+|        134 |                1 |
+|        135 |                1 |
+|        136 |                1 |
+|        137 |                1 |
+|        138 |                1 |
+|        139 |                2 |
+|        140 |                1 |
+|        141 |                1 |
+|        142 |                1 |
++------------+------------------+
+62 rows in set (0.00 sec)
+
++------------+-----------------+
+| account_id | number_of_pings |
++------------+-----------------+
+|          1 |              16 |
+|          2 |              19 |
+|         22 |               7 |
+|         23 |               5 |
+|         26 |             107 |
+|         28 |               5 |
+|         29 |              20 |
+|         31 |               2 |
+|         33 |              11 |
+|         35 |               7 |
+|         36 |               7 |
+|         38 |               6 |
+|         44 |              13 |
+|         53 |               1 |
+|         62 |               1 |
+|         64 |               2 |
+|         65 |              12 |
+|         66 |               1 |
+|         67 |              11 |
+|         68 |               5 |
+|         73 |               2 |
+|        101 |               2 |
+|        102 |              23 |
+|        109 |               6 |
+|        111 |              90 |
+|        116 |               1 |
+|        127 |               1 |
+|        128 |               8 |
+|        129 |               1 |
+|        131 |               5 |
+|        140 |               2 |
++------------+-----------------+
+31 rows in set (0.00 sec)
+
++----------+------------+-------------------------------------------------------------------------------------------------------+
+| Query_ID | Duration   | Query                                                                                                 |
++----------+------------+-------------------------------------------------------------------------------------------------------+
+|       23 | 0.00808250 | create index account_id on users(account_id)                                                          |
+|       24 | 0.00592800 | create index email on users(email)                                                                    |
+|       25 | 0.01700900 | create index phone on users(phone)                                                                    |
+|       26 | 0.01005125 | create index ds_id on users(ds_id)                                                                    |
+|       27 | 0.01039675 | create index twitter_id on users(twitter_id)                                                          |
+|       28 | 0.00613350 | create index facebook_id on users(facebook_id)                                                        |
+|       29 | 0.00636650 | create index requesting_guardian on ping_results(requesting_guardian)                                 |
+|       30 | 0.01014050 | create index driver_id on ping_results(driver_id)                                                     |
+|       31 | 0.00842425 | create index account_id on ping_results(account_id)                                                   |
+|       32 | 0.00062350 | describe driving_record                                                                               |
+|       33 | 0.00080750 | describe users                                                                                        |
+|       34 | 0.00039750 | describe ping_results                                                                                 |
+|       35 | 0.00180050 | select account_id, user_id, count(*) as total_drives from driving_record group by account_id, user_id |
+|       36 | 0.00029700 | select account_id, count(*) as users_in_account from users group by account_id                        |
+|       37 | 0.00031125 | select account_id, count(*) as number_of_pings from ping_results group by account_id                  |
++----------+------------+-------------------------------------------------------------------------------------------------------+
+15 rows in set (0.00 sec)
+
+mysql> 
