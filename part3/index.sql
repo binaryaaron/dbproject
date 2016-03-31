@@ -15,13 +15,11 @@ alter table ping_results drop index driver_id;
 alter table ping_results drop index account_id;
 
 
-select * from driving_record where account_id = 2;
-select * from driving_record where user_id = 2;
+select id, count(*) as total_drives from driving_record group by id;
 
-select * from users order by email limit 10; 
+select id, email, phone from users order by email limit 10; 
 
-select count(*) from ping_results where account_id = 2;
--- selects for performance
+select count(*) as number_of_pings from ping_results where account_id = 2;
 
 
 
@@ -42,9 +40,8 @@ create index account_id on users(account_id);
 
 -- re runs the statements
 
-select * from driving_record where account_id = 2;
-select * from driving_record where user_id = 2;
+select id, count(*) as total_drives from driving_record group by id;
 
-select * from users order by email limit 10; 
+select id, email, phone from users order by email limit 10; 
 
-select count(*) from ping_results where account_id = 2;
+select count(*) as number_of_pings from ping_results where account_id = 2;
