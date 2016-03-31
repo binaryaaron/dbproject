@@ -1,0 +1,11 @@
+/* 4:18:16 PM LoEApps drive_control */ select `users`.`name`, `users`.`phone`, `driving_record`.`id`, `driving_schools`.`name`  from `users` LEFT JOIN `driving_record` ON `users`.`id` = `driving_record`.`user_id` LEFT JOIN `driving_schools` ON `users`.`ds_id` = `driving_schools`.`id` where `users`.`id`=612;
+/* 4:18:16 PM LoEApps drive_control */ SELECT `id`, `name` from `driving_schools` UNION SELECT `id`,`company_name` FROM `vendors`;
+/* 4:18:16 PM LoEApps drive_control */ SELECT COUNT(`user_type`), `user_type` FROM `users` group by `user_type`;
+/* 4:18:16 PM LoEApps drive_control */ select * from `users` order by `last_logged_in` asc;
+/* 4:18:17 PM LoEApps drive_control */ SELECT DISTINCT `start_lat`,`start_long`,`end_lat`,`end_long` from `driving_record`;
+/* 4:18:17 PM LoEApps drive_control */ SELECT `id`, AVG(`hours_recorded`) from `drivers_log`;
+/* 4:18:17 PM LoEApps drive_control */ select * from `ping_results` WHERE `account_id` = '111';
+/* 4:18:18 PM LoEApps drive_control */ SELECT `user_id`, COUNT(*) AS num_resets FROM password_reset GROUP BY `user_id` HAVING COUNT(*) > 1;
+/* 4:18:18 PM LoEApps drive_control */ SELECT `user_id`, COUNT(*) AS num_drives FROM driving_record GROUP BY `user_id` HAVING COUNT(*) > 1;
+/* 4:18:18 PM LoEApps drive_control */ SELECT `users`.`email`FROM `users` LEFT JOIN `alpha_signup` ON `alpha_signup`.`email` = `users`.`email`WHERE `users`.`email` IS NULL;
+/* 4:18:18 PM LoEApps drive_control */ SELECT DISTINCT `email` FROM `alpha_signup` WHERE NOT EXISTS (SELECT * FROM `users`  WHERE `users`.`email` = `alpha_signup`.`email`);
