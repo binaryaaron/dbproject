@@ -1,0 +1,1765 @@
+mysql> source ./query.sql;
+Database changed
+Empty set (0.00 sec)
+
++---------+------------+
+| user_id | num_resets |
++---------+------------+
+|     314 |          3 |
+|     517 |          2 |
+|     599 |          2 |
++---------+------------+
+3 rows in set (0.00 sec)
+
++---------+------------+
+| user_id | num_drives |
++---------+------------+
+|      29 |          2 |
+|      46 |          6 |
+|      66 |          4 |
+|      67 |          6 |
+|      68 |         38 |
+|      69 |         74 |
+|      85 |          4 |
+|      90 |         46 |
+|      95 |          2 |
+|     107 |          7 |
+|     108 |          4 |
+|     122 |          2 |
+|     142 |          4 |
+|     143 |          3 |
+|     158 |          4 |
+|     191 |          7 |
+|     194 |         12 |
+|     201 |          5 |
+|     202 |          7 |
+|     207 |         22 |
+|     208 |          2 |
+|     209 |         47 |
+|     212 |         11 |
+|     215 |          4 |
+|     217 |          7 |
+|     218 |         11 |
+|     220 |          3 |
+|     221 |          9 |
+|     227 |          7 |
+|     230 |          2 |
+|     235 |          8 |
+|     239 |        124 |
+|     258 |         28 |
+|     260 |        161 |
+|     263 |          3 |
+|     273 |         49 |
+|     274 |         50 |
+|     277 |          6 |
+|     311 |         37 |
+|     314 |         50 |
+|     321 |         95 |
+|     323 |          6 |
+|     325 |         14 |
+|     328 |          9 |
+|     329 |         26 |
+|     336 |          5 |
+|     347 |          3 |
+|     352 |         11 |
+|     357 |          2 |
+|     360 |          3 |
+|     361 |         12 |
+|     364 |          6 |
+|     368 |         19 |
+|     379 |          9 |
+|     404 |          3 |
+|     405 |          2 |
+|     412 |         37 |
+|     415 |          6 |
+|     418 |          6 |
+|     423 |         12 |
+|     426 |          8 |
+|     428 |         18 |
+|     430 |         13 |
+|     431 |          3 |
+|     433 |          5 |
+|     434 |          4 |
+|     438 |         64 |
+|     440 |         11 |
+|     457 |        146 |
+|     459 |          2 |
+|     467 |         38 |
+|     468 |          3 |
+|     507 |          4 |
+|     516 |        100 |
+|     517 |         28 |
+|     525 |          6 |
+|     536 |          3 |
+|     538 |          7 |
+|     540 |          5 |
+|     544 |          2 |
+|     550 |          3 |
+|     552 |        133 |
+|     553 |          5 |
+|     557 |         12 |
+|     558 |         13 |
+|     564 |         11 |
+|     565 |         41 |
+|     566 |          2 |
+|     568 |          3 |
+|     570 |          2 |
+|     582 |         88 |
+|     583 |          2 |
+|     589 |          4 |
+|     591 |         13 |
+|     595 |          5 |
+|     597 |         43 |
+|     605 |         12 |
++---------+------------+
+97 rows in set (0.00 sec)
+
++-----------------------+-------+------+------+
+| name                  | phone | id   | name |
++-----------------------+-------+------+------+
+| a19d9ae3d9 0e18584cf4 | Ä200  | NULL | NULL |
++-----------------------+-------+------+------+
+1 row in set (0.00 sec)
+
++------------------+
+| email            |
++------------------+
+| NULL             |
+|                  |
+| A24165235425     |
+| A252525          |
+| A263232361525    |
+| A463425425       |
+| A614325252423    |
+| B252525          |
+| B2535425         |
+| B45325           |
+| B531525425       |
+| B6524325425      |
+| B652525425       |
+| B65253425        |
+| B653421425       |
+| C525253425       |
+| C5326525         |
+| C53625325        |
+| C623525425       |
+| D141636125364125 |
+| D15325425        |
+| D252525          |
+| D26525           |
+| D524621241453    |
+| D526425425       |
+| E424323525425    |
+| E652625425       |
+| F41462525425     |
+| G52525425        |
+| G52624125        |
+| G5262425         |
+| H362513452525    |
+| H425425          |
+| H453125425       |
+| H626516325       |
+| H64532535425     |
+| J12125425        |
+| J31252353        |
+| J32425425        |
+| J325425          |
+| J325625          |
+| J5232325         |
+| J526525          |
+| J53135425        |
+| J536125425       |
+| J5621326125425   |
+| J615261525       |
+| J6525425         |
+| K124125          |
+| K35425           |
+| K52525425        |
+| K65323526525     |
+| L250             |
+| L525425          |
+| L5262525         |
+| L52625425        |
+| M1252353         |
+| M212325425       |
+| M23252525        |
+| M251425425       |
+| M25425           |
+| M324325425       |
+| M35452525425     |
+| M43125425        |
+| M635325425       |
+| N25425           |
+| N325425          |
+| P25423616246325  |
+| P362625425       |
+| P5152325         |
+| R12425425        |
+| R1525425         |
+| R26325           |
+| R32325425        |
+| R3513412353262   |
+| R525             |
+| S125             |
+| S1562425425      |
+| S16235425        |
+| S1625425         |
+| S453425          |
+| S5254            |
+| S525425          |
+| S5612525425      |
+| S5652525         |
+| S6323525425      |
+| T12125425        |
+| T2325425         |
+| T235353125425    |
+| T2632125         |
+| T465353          |
+| T5142625425      |
+| T52163425        |
+| T621             |
+| T621252525       |
+| T63125425        |
+| U5625425         |
+| X525425          |
+| Y3425            |
+| Z1253542         |
++------------------+
+100 rows in set (0.00 sec)
+
++----+-------------------------------------------------------------+
+| id | name                                                        |
++----+-------------------------------------------------------------+
+|  1 | Nialls Driving School                                       |
+|  2 | ODEC                                                        |
+|  2 | Driver Training Services                                    |
+|  3 | Rogers School of Driving inc                                |
+|  4 | Grand Prix Driving School                                   |
+|  5 | Institute for drivers Safety                                |
+|  6 | DriversEd.com                                               |
+|  7 | Driving School of the Southwest                             |
+|  8 | Coach Al's Driving School                                   |
+|  9 | DSAA- Past Pres                                             |
+| 10 | Wallace Driving School                                      |
+| 11 | Top Driver                                                  |
+| 12 | Aults Driver Eucation Center                                |
+| 13 | driversed.com                                               |
+| 14 | R & R Driving School                                        |
+| 15 | Road Worthy                                                 |
+| 16 | Schedule 2 Drive                                            |
+| 17 | HADS                                                        |
+| 18 | Daytona Driving School                                      |
+| 19 | Texas transportation Institute                              |
+| 20 | Texas Dept of Public Safety                                 |
+| 21 | Association des ecoles de conduite du quebec                |
+| 22 | Dual Brake Driver Training Accessories                      |
+| 23 | DriversEd.com                                               |
+| 24 | Oklahoma Driving School                                     |
+| 25 | Paradigm Driving Solutions                                  |
+| 26 | Safe Way                                                    |
+| 27 | Institute For driver Safety                                 |
+| 28 | Top Driver                                                  |
+| 29 | Cornerstone Driving School                                  |
+| 30 | FAT dual controls                                           |
+| 31 | Wallace Driving School                                      |
+| 32 | AAA                                                         |
+| 33 | Aceable                                                     |
+| 34 | Elite Driving School                                        |
+| 35 | Gregory's driving school                                    |
+| 36 | University of Nebraska Kearney Transportation Safety Center |
+| 37 | University of Nebraska Kearney Transportation Safety Center |
+| 38 | Corliss Driving and Traffic School                          |
+| 39 | Impact Teen Drivers                                         |
+| 40 | R and R Driving School                                      |
+| 41 | learn to drive PA                                           |
+| 42 | Safeway Driving School                                      |
+| 44 | Learn To Drive                                              |
+| 45 |                                                             |
+| 46 | Driving Done Right                                          |
+| 47 | Merkley's Driving School                                    |
+| 48 | TextingAwareness                                            |
+| 49 | AAA                                                         |
+| 50 | South Jersey Driving School                                 |
+| 51 | Texas Dapt of Licensing and Regulation                      |
+| 52 | Houston Area Driving Schools                                |
+| 53 | OK Driving school                                           |
+| 54 | First Class Driving School                                  |
+| 55 | 1st choice driving school                                   |
+| 56 | Stay Safe Defensive Driving                                 |
+| 57 | Century Driving                                             |
+| 58 | Administrative VP dsaa                                      |
+| 59 | Controller                                                  |
+| 60 | Secretary                                                   |
+| 61 | Southestern USVP                                            |
+| 62 | Western USVP                                                |
+| 63 | Eastern Canadian VP                                         |
+| 64 | western canadian vp                                         |
+| 65 | Test Driving School                                         |
++----+-------------------------------------------------------------+
+65 rows in set (0.00 sec)
+
++-----+-----------------------+--------+---------------------------+--------+------------+------------+------------------------------------+-----------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------+------------+--------+--------+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+---------------------+-----------------+----------------+-------+-------+------------------+------------+-------------+----------+
+| id  | name                  | gender | email                     | phone  | password   | birthdate  | key                                | logged_in | account_id | phone_type | phone_id                                                                                                                                                                                | white_list                                                    | user_type      | is_driving | active | tester | last_logged_in      | settings                                                                                                                                                                                                | terms_accepted | terms_accepted_date | plan            | setup_complete | admin | ds_id | drivers_log_user | twitter_id | facebook_id | _deleted |
++-----+-----------------------+--------+---------------------------+--------+------------+------------+------------------------------------+-----------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------+------------+--------+--------+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+---------------------+-----------------+----------------+-------+-------+------------------+------------+-------------+----------+
+| 423 | 096871c8c2 fda537823f | NULL   | 0bf70cb89b@db7b7a25bf.com | B500   | 520d07be91 | NULL       | $1$Jbx10P6H$mhAJSuSt5emHZPFXosTqD0 |         1 |        100 | ios        | 845229649e89454da0fbdfe2aa0b5fa4399f7463b6456aae27283d4a09f09069                                                                                                                        | NULL                                                          | driver         |          1 |      1 |      0 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | NULL                | business_plan   |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 435 | 0732611932 b1857e0d4d | NULL   | 839001000a@cce1cee70e.com | Q500   | 5d21a2d844 |            | NULL                               |      NULL |        106 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1439075140          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 437 | 3013f40344 db03e89918 | NULL   | 4c258e1c13@9f7107f1d8.com | ñ000   | d5b393bbd0 | 01/01/1950 | $1$YiAnE2Zb$oVn6MCHLGnohm3sQ1IdmY. |         1 |        108 | android    | APA91bHXI4lBhEH2D3KZqdJl1X2688aL06MTODG6rODgCdRAcdxtvlYgiHNzZDICmZTDhpw2oRVqKwCvNkXS6w9PUpLCczchXajbhc_JBjO8eIZKSra7W2xAFWXEsV3sVz92gVMK_VqN                                            | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | 1443020242          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 472 | 71ffadabf1 1f1d9520c0 | NULL   | 83ebe9793f@ec6f8ff1fa.com | Q652   | 0c6acef25d | 01/01/1980 | $1$gSbwoHHS$AGp1WyQ57dbtj4m/IEBp11 |         1 |        115 | ios        | b2d4a863ac1f5795e11dbe0be8c752c2d90ac92b7e71b3bab405516e90809b61                                                                                                                        | ["5058888777"]                                                | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1450750816          | family_plan     |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 436 | b9d85819f1 4d00aa4a12 | NULL   | b93a1c2421@29d643e49a.com | ì200   | 5a154fcb95 | 01/01/1990 | $1$camtKr03$MJ8428f9i/Jo1o17D9uDq0 |         1 |        107 |            | NULL                                                                                                                                                                                    | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1440448901          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 144 | 49ab1bbe8e 42564f1844 | NULL   | 20c3db7db5@63c495e6ee.com | M420   | e5d779da42 | 01/20/1990 | $1$ROefr8FR$ezFCtRq6t39lke47FZP65/ |         1 |         27 | android    | APA91bEwZCwt8rzfiBIsCnSgBPoTj8Pxc3qfUzlkM5u6ezoDWT3KmqSq8ggMOJfnAv5TQ8v07STYX1hDNMiW_N-gF9cZfXBpzpn5uypWznBmfB--PC3dO3gwtOzMDKvvlm1wl5V8pTAfzjfhvV1FX29_x_v_OF-eYNXMNDKmrXp3XhJtVbTUS58 | NULL                                                          | individual     |         -1 |      1 |      0 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | NULL                | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 599 | 140ae345cf 704547c700 | NULL   | 4a47936616@267a7ceaed.com | û100   | ae4a0098fe | 01/28/00   | $1$GTDDHckn$mZLA.CZrQLGzp/oLPlR870 |         1 |        140 | ios        | bfdaacd7ed8e1a13809a65b168a5a4825e01de302c43fd2d25525934a3a8d202                                                                                                                        | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"0","co_guardian_access":"0","auto_start":"0","auto_start_for_driver":"0"}                                                                                                          |              1 | 1456929845          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 416 | 5beb00a83e 558e9f2caf | NULL   | 7b10e1908f@8ee9e47b82.com | í210   | dc9c8a9db6 | 01/28/1944 | NULL                               |      NULL |         79 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431185980          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 459 | 14bbf271bd 0c4235fa16 | NULL   | 883f3d23f3@02fc2ef6cf.com | Z500   | 99172b8dad | 01081970   | $1$BvxBcv7x$.RiDs6qFm2k.3I6gaT0CU1 |         1 |        112 | android    | APA91bEmbP5xmXqngm52Rat8FuyDLJnLopyLmWvgQiprHBSQ52eT441IZ3YwLJvHWjzVbZNt_EYHN2z-9ubQsxCCZzdntZpnjNHEFG9i_nHr5ZVGvndwwKh3JSklVwOd7ltiSj-XckEc                                            | NULL                                                          | individual     |       1543 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1446830474          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 561 | 13a3750b29 b9342d8589 | NULL   | ea4da28e1e@5a2eccac36.com | R000   | 4f34788b3d | 01171983   | $1$qhxPXV2X$02nmAdbU.jVW.a6.IjRgg0 |         1 |        127 | ios        | ed6ffd2867a53c8980ed42a10b333431f59eff4c17318677839cffaf6a051dcc                                                                                                                        | ["5052700083"]                                                | guardian       |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452834368          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+|  94 | a76bbef500 c07d81c92e | NULL   | 291c90d511@c2bd193f61.com | Ê500   | 3f8400317c | 02-04-1989 | $1$jQqLhgYA$IVJGz81KV0giZbN5.RyRL. |         1 |          8 | android    | APA91bHst0QlwqVe8oBib97HHpB7zVJB1-Vwoy-sElx3I6dgft8YffefRVsGX63tI7rFzzIa5FE2vQxoN1vA-jwMUvhMBs9J01VYaxxO1vTltRR5MLjEavHghEMZ6CjG-RkGjwuoJ_7EFgc5YUvcXeYsmlpfoncOx_ozP3W3k-2d7JpAIBzm560 | NULL                                                          | individual     |         -1 |      1 |      0 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | NULL                | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 368 | 1c1a4d3f5b 971e6ce9e6 | NULL   | a8db3f6d2f@6be5edb97c.com | á120   | a584f113cc | 02/04/1966 | $1$IQccKXOx$LG5c5sqShQHRa.1g2YPet. |         1 |         70 | android    | APA91bHmvK7Ceo4W4FwvErsiXh6-kclmkrfPmaC4ww3J3C7StVChLKq8soh_RBCodPfamIr_uzyE-8cnxzLzFplaBvQF4p02hxd0DPv5YRux2W1kwmEVS7RuYOdNXhT1iJGTBIj-SoFpk0uI2iqcAoV5MnD1c_S7ZQ                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1430170582          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 593 | 70be5f839f f99819c3c2 | NULL   | 4e44ef661d@17b79b2ee1.com | Û000   | e9889806bf | 02/10/1989 | $1$rnweqwXN$MtOk535ukXgm8A6X3fpCl. |         1 |        136 |            | NULL                                                                                                                                                                                    | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | 1455337580          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+|  96 | 3f9e821011 7de66d4e31 | NULL   | 8d99db7b3f@066fd4c3d9.com | C312   | 10a995b244 | 02/29/1970 | $1$0sJTkdKR$bU4.SnnS1PjjJIGS.fZ7F. |         1 |         10 | android    | APA91bE9mNuuowuC4T6Q-Viz9kvxmoKhZOdNl8V9rIz-w9fYd6U2YSXBSqCadTQmmkUlmqwX5K98P92e-6DhRrn3GV0Cr4xe5U2XK6o4z8Nluu4-Ohfnmutd8s76QY86w3FGCtq0ViNU0Lxu-ce3NTzT7JyDBa77Bza53ZUI2M75WizIDwLnxr0 | ["5055144943","5052388083","5053690066"]                      | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"0","auto_start":"1","auto_start_for_driver":"0"}                                                                                                                                   |              0 | NULL                | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 427 | 902d1d2da2 b4820e1d38 | NULL   | 886de23034@511966144f.com | R000   | 389659a8e5 | 02/29/1987 | $1$QyF0kBd6$2eaZsind22VUaGdvEMb9J0 |         1 |        102 | ios        | 6aa42461278bc3c7db62e576f0ebb965f8c8973cd6b468461178d904157730e4                                                                                                                        |                                                               | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431479920          | business_plan   |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 592 | 2299b952be 0a1ce3638c | NULL   | d43f613802@e9e1523ae3.com | V620   | 5a06f8922c | 02021980   | $1$rQWbUnAV$pyJrmOlTji6WI0Ohp2nXs/ |         1 |        135 | ios        | (null)                                                                                                                                                                                  | NULL                                                          | NULL           |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1455235183          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 336 | aab182f747 8a0b64b0bc | NULL   | 6fc5725148@bfecad8f76.com | ý260   | 8c12f33f75 | 03/28/1980 | $1$YZ9cIDVp$Sy.zFqn8xgg031gvyYzJg/ |         1 |         54 | android    | APA91bFhfEsWDAMGfp_H8dx4GGH2DuGTAKmWAA9qnDtfpFbRBrMANzMYFL3fFp-MxPSlWIM8PNuMefazVc6eHaiT-F1mlchmgJeIvVlhXzzjmR0pgbXw48Bzk_huwsOlUFygwTuYzTSL6zC6zILQbHBD1YmSlzwEsg                      | NULL                                                          | individual     |          1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428286007          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 434 | 6708bed85b 939e4045c2 | NULL   | afcb2dcda7@a5ad0b1291.com | E212   | a5d674134e | 04/05/1978 | $1$fWmLvCVC$VWQw.MuYs94yBBwoRtZcE1 |         1 |        105 | android    | APA91bHmY42ejuPfQVM0MOXfM12tp8zdU1p7Nxw_00eDc-PpQGHHC6-WC1gacxAHSsB5UL1xNJVDrlgBF11hj6NdjpAmAfssXW898TKxbzsN5R4j4O5YGs_HVZngO7-C4S-TjUTctcrR                                            | ["3105972056"]                                                | individual     |          1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | 1438110613          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 315 | 52b7f16c5a 5029cad9bc | NULL   | 2c3ed91bc4@1fa1ddea70.com | Q160   | a195e881e9 | 04/24/1990 | $1$CufolujV$xKQWKve24Wsuj2Kcn7tHh/ |         1 |         46 | android    | APA91bG3DsrTcXt5WheP0YFDZ44UZvwwC3u4sKi4N5KSzjgupl0ybYYXinNQkpPwB9_VLnTO27QrNfox2n3-kJI7uIWAVpLH0jm71vMIxIm7Ag_wVis0NJcg0SAXXjoKysOjtK0qnpOI6oQPFvcrgwOnb771-rgHfw                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1427955779          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 419 | e577603054 504e813815 | NULL   | 1992485ace@809e4a2c4c.com | E250   | 03b7747b80 | 04051977   | $1$whR8vRuV$HMzlpflSnS/5v1QyNE4ug/ |         1 |         82 | android    | APA91bFNDWgr623UEi3EeI3Tjedmzzxx-2XcO933b8IRCsZjTif6v1Qe_c1TagNpbY8jqadmAnPPsFqmeLga3LmYQasHUwI-ZOqe-eEIm3QQsxwu9clct-eiia3S8SXE9fT3iJZeIXjx2PKj0RerJwIPvto0-RC2pQ                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431228561          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 353 | 2799f8bf29 1641738239 | NULL   | 9568edcac9@4dd75a2724.com | Ò530   | 4e8e85b3d5 | 04061962   | NULL                               |      NULL |         63 |            | NULL                                                                                                                                                                                    | []                                                            | driver         |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1429189174          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 327 | 67bc8e1596 934afde745 | NULL   | b6260157d4@418d628d71.com | ç200   | 602579e62d | 05/15/1951 | $1$u9MSx88L$5Gc6L/J/NDB/gEf40hUC/0 |         1 |         51 | android    | APA91bFV_Xi7mGTQWD4oiP-HgvxnsLBjksLZJW8zcL6NiSWuWQqCW5gkOKWXVeEPk2ekcuYctibbms99_5cEvaW3cQlsad_uFSpLz3ZuSGdZYKYcVlgeng2D4EYhiPXNXXOMfz7FJnbo254zu-KmIvhEjj-V5h6Qxw                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428025629          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 420 | fb0d125e68 94464bcaaf | NULL   | a18c1afed1@642ec4191f.com | O2121  | 947ace008d | 05/15/1952 | NULL                               |      NULL |         83 |            | NULL                                                                                                                                                                                    | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431292032          | individual_plan |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 415 | 8217b5bab1 7ff70c3b9a | NULL   | 82e68c5ec8@bc8faac8c3.com | V500   | 27caacf66f | 05/20/1960 | $1$PwhK/q0R$/r9EJpL5XnqiswzR7L.P5/ |         1 |         78 | android    | APA91bFsAKg0owNi07ftudon5cAhjJAsjnDtc8RwqbDbAMWkffezFMy2DhPlefrtpETaqlotmd3_po9DCjyAOEWNrfiXXPM7qhYteufSp5CPypHOUzvSstY4a8p6pN1t5A8g_OFdEE5vl2QnWjX3AIKnXWITzW4drQ                      | ["5052382142","5057206789"]                                   | individual     |       1857 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431185261          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 596 | 3efa6c6381 ccbfcc3c2e | NULL   | 4b7fc666ac@56cffb7f9a.com | Ü100   | 8457b55f4b | 05/30/1943 | $1$Kr0hiovM$9v34I3y9TE1Ys.l9KrFnO0 |         1 |        138 | android    | APA91bFavqPaSaLXrOeQYyzRbARC0BS2e7lb7__h_41pGm-WVEgIIhS9xLLCRwXgAz1Uv_zTT59ZpQLnCdEAMOp2Y1tmGy0dPGbbTl8noztkbhYI-cwzUmTX9EAwXG0iR7EUVYjpNSnp                                            | NULL                                                          | individual     |       2171 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | 1455901134          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 325 | 1d7ffd5a62 e55e171ede | NULL   | b088344f42@f60a723201.com | C100   | 7e9c095fd4 | 06/06/1985 | $1$GHrfsAbV$NkeQCsWHKzXBMoMfTVbu6/ |         1 |         50 | android    | APA91bFZJfRwedJgvGlTBXJP5Uf8XcN3MoVYNQClDtZSgPgNNIT5ND8aiDrqihOhWHjg9xvgcHGDB5PAKu2_48Tu86JyvRHdf6QdLqfjKiXCTuGN-aN4X98KhHLHSt5gsgWUiBSzm_WiGoNKGec5B96Rvuc-vS5EmA                      | NULL                                                          | account_holder |          1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428008870          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 208 | 48ea11d98f 9963008f1b | NULL   | 2b6ceda415@8f66330681.com | á6212  | c1439e81c7 | 06/17/1985 | $1$EvgxybhM$exTxcFup9HKMwW6s6RHyG. |         1 |         32 | ios        | d05a0a14e710a6a206339ecce09c611f38746412e6bfe5e2cf3d88b6da7c0f00                                                                                                                        | NULL                                                          | individual     |         -1 |      1 |      0 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | NULL                | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 591 | 855c2f7b8c 27ec0b672b | NULL   | d8b0781ff1@af57a9161b.com | õ200   | 1d923db677 | 06/19/1975 | $1$aSuPhSvg$Pap4FDEHDNT5yRpl5drzv1 |         1 |        134 | android    | APA91bGMQQW85dzNCDQlfTGC8kNfcVU0bgfE0GT0PAavR8RMCQRxfDj8g1h4izAa9aRk8vZJNulhAjcYWjdGn3RD3ZJSlXVd145lNCDIcN1j8-d88yBqm924UnDwioNU0dcyA8xrUHvT                                            | NULL                                                          | individual     |       2139 |      1 |      1 | 2016-03-31 15:34:55 | {"auto_start":"1","auto_reply_to_text":"1","send_tweet":"0","update_status":"0"}                                                                                                                        |              1 | 1454954980          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 595 | d1f120be92 b6957bd570 | NULL   | 84d8c9b0df@80db34a7fc.com | É400   | f39bf5a798 | 06/21/1951 | $1$Zs.NaXtK$iSjAGPCvjKkQo0QrBaW5E. |         1 |        137 | android    | APA91bHp0j2x6I_zpdySuGztBbu-VRqUSKS_Up0PRa4qHFl4jXw-X6m3NHDKahR57-qUjGZO6fxTnag0JcCY-rKxSsa8PXP1KJRqEijVWJEA-IH0bMprtFqXNuAAugn-PHoTLgvIlQFv                                            | ["503-314-0598","971-337-8544","503-314-1295","503-544-2048"] | account_holder |       2164 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"1","auto_start":"1","auto_start_for_driver":"1","co_guardian_access":"1","speed_notification":"1","auto_reply_to_text":"0","drivers_log":"1","send_tweet":"0","update_status":"0"} |              1 | 1455556829          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 337 | 2a0928f94d aec5207a69 | NULL   | cce9bb0ee0@1036ea47d3.com | ÿ210   | 0d33ab6e9b | 06/22/1966 | NULL                               |      NULL |         55 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428355800          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 428 | 88c715eb63 fd0a8091fe | NULL   | bfb3c354a8@53823706cf.com | V300   | 58f66540d0 | 06/23/1876 | $1$1QuGB0ZG$w18vs.L4vYWf0OtotVn8W1 |         1 |        102 | ios        | a77dd85ca37634bda9154b78839d40edaa7648c24055a8312344b4f640a29c52                                                                                                                        |                                                               | driver         |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431480040          | NULL            |              0 |  NULL | 1     |                0 |       NULL |        NULL |        0 |
+| 598 | a2790c2807 8b153afae9 | NULL   | 4d11fce847@0f62d1b42e.com | û620   | ca0a634a0a | 07/06/1983 | $1$s9BfYKCe$iZtAe6DGHPogLER7VXEk/1 |         1 |        139 | ios        | 08c984561490b72b6011afc9d66f9e08f1f627b2cfaca1c932422673f667ad74                                                                                                                        | ["5059108167"]                                                | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"0","auto_start":"0","auto_start_for_driver":"0","co_guardian_access":"0","speed_notification":"1","auto_reply_to_text":"1","drivers_log":"1","send_tweet":"0","update_status":"0"} |              1 | 1456695578          | family_plan     |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 413 | 6722cc4b32 53944a06e8 | NULL   | ebfc30995f@8d9ee3b724.com | W200   | 3bc0079013 | 07/09/1977 | $1$dqklZqFI$lJLIJZMo0G3GqHp/hIFWI0 |         1 |         76 |            | NULL                                                                                                                                                                                    | ["5052604178"]                                                | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431106132          | business_plan   |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 418 | f828e589c1 197c7d1e41 | NULL   | 269c9d05e1@a3fd4be035.com | Ü210   | 8077fbc690 | 07/29/1990 | $1$xwPJUiL6$/b.gNWBNzh0h5Eid9YRR9. |         1 |         81 | android    | APA91bEy4XQJ7s_NxDAcHS84tRskU9OFOk3CJfRlb0voaiSqrIogIXnHpsG2EE5vQm62n2gXFsx64pwV0cXhMsRr9ufao0sqsgY2i4UizE7aHJaDWb0-zB2um4IYmo1OCj0Ep-7Ph9RN                                            | ["5051234567"]                                                | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"1","auto_start":"1","auto_start_for_driver":"1","co_guardian_access":"0"}                                                                                                          |              1 | 1431206861          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 328 | 227c90fd81 56b519f5d6 | NULL   | 6e92275ef4@700598298e.com | X100   | 9fb79da428 | 07171988   | $1$/TXKIDF9$or9werLPSYIdPqVvOYfR20 |         1 |         52 | android    | APA91bHRRn6-zAxS6_xR9j6WzW77OKC69HToZLrC2ngfLzv52xZc4r6eE2mk2yMXVv_xwmFj0InCXXCA4nm7xwxjUJA5cr_ROPQhsGk86UzfTtO28tDtuOeMf3Kxi24k98Wu8lPZHD2fN0ZnoQdP0Tx984c9aUR1Vw                      | NULL                                                          | individual     |          1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428038262          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+|  93 | fff2a42ff7 67f67eb9cf | NULL   | fe5307a8e1@c921ea1998.com | Ù350   | deba856e0c | 08/07/1986 | $1$2tpjGfsV$oL1WFwtRPyjX5FRt1tmYM. |         1 |          7 | android    | APA91bE-unJrF7ALdYQ4GIQWhTJBlaUbpkX8Kio-Oa8CYHy9TFbYl1PiMX8RLr1_59Qy1rxoM2h10m92wtC-m7e_3YD82_V3CTO-j3o99artp3-OKPibvLhZUuojD-0MqiSjBKPS_gZyFlgHDlPnFuVslPu96kb4mCbwyC_3sOZld3_Q0liPmrI | NULL                                                          | individual     |         -1 |      1 |      0 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | NULL                | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 364 | 2e987f1769 a460d1f8a4 | NULL   | 0dc912604e@9c1c2f7ace.com | R000   | f96c80abdc | 08/09/64   | $1$L.FnoDa5$Auuu9yvUQHuKI2PFFwMmI. |         1 |         67 | ios        | 9103efb09849dd42dd6d9de89d8383dacaa282422bcefa82810a62644c177043                                                                                                                        | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"0","co_guardian_access":"0","auto_start":"0","auto_start_for_driver":"0"}                                                                                                          |              1 | 1430147808          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 352 | 1441b53a4c 2a24bfca85 | NULL   | e5956ba4c0@b3424413fe.com | Ä000   | f97e8df5fb | 08/14/56   | $1$YsC4s6Dw$kc7lgTuxdc0P2Q0IO3YRk1 |         1 |         62 | android    | APA91bHHJuwdVvaLVpm11SxpBxGntdCsIjFU7huYY0nBoYUMBHDsgY8C0TYJ_2RjmP5LQnb9CyiSgb-qxhHdnuazEtCN9eKrqOyCTuH_TEgIk32Ew9YUD0pvt23zhqs7SiLa6Xj4x-9etQ8prT1KTsSMc-iSE8-a3g                      | []                                                            | driver         |       1656 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1429127208          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 205 | e29cb9d594 14a1dc218b | NULL   | 3f9cc4d8b7@5440ea41cd.com | í200   | 24f8169960 | 08/23/1988 | $1$0pYEwuo6$mDGWZgzihEbMZy3yAEYQ90 |         1 |         31 | ios        | 909028c8be79239b6c9831a741efdfe9a68a85a0ac7229f7e2a0faa693b96d30                                                                                                                        | ["5059999238"]                                                | account_holder |         -1 |      1 |      0 | 2016-03-31 15:34:55 | {"auto_start":"0","co_guardian_access":"0","notify_when_left":"0","auto_start_for_driver":"1"}                                                                                                          |              0 | NULL                | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 322 | 69d85703f6 53020592f6 | NULL   | fd5282c93d@326bdf5f8a.com | I600   | 5644b6a088 | 08/24/1989 | NULL                               |      NULL |         47 |            | NULL                                                                                                                                                                                    | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428000085          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 432 | d0a05cff9c 166d1d6e00 | NULL   | 6eaf62d526@42d6c26a7d.com | ü100   | 078b6b6b4f | 08181989   | $1$826UjstE$KLCZLf1NIhR6ke7FzDNBc0 |         1 |        103 | android    | APA91bEK_GG65Ind2oBe2Q9plqILujuHu6pzah6U1QnzpwpmJlVBXi2cZ4Y_FtxPBrZnfeUFsyt14mRa1muJjYCX5CsbFeR1xE6ACwir-RDH5Tjuu10F6m59rQ0i7eF-vm8q5vcIOubusMJAk3lr_y0xpX6MzUhJsg                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1432668077          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 600 | 9995cd1749 0e0000cf65 | NULL   | 64d947fd25@bd29fe55e6.com | Ì600   | f942fca0ac | 09/09/1998 | $1$M7cfuXhU$P3sKVf8OJy3HsY3Z/MuPD1 |         1 |        141 |            | NULL                                                                                                                                                                                    | NULL                                                          | NULL           |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1456954211          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 532 | eafab35623 f3303782e0 | NULL   | dc073e666f@ee410f6f00.com | Z000   | b7fcdceb14 | 09/18/1954 | $1$nejho8pW$/PQ5ZRHqMR2Q4ARS7uFXX0 |         1 |        119 | android    | APA91bHVwKgq07m_JSBPt4LImwOQhoJVjbaW4kn_NUUpFBy9TIjoE0WjkBiN__pdm4Z-qY69EcXzzD2MwZUTsduq99dKWN8XOsAWl2MClgD_mZObEyMuu2T696a0hnLF_8s1UvH1mqK0                                            | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452115267          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 351 | 4972fbc224 eb1130d17b | NULL   | fcdfcef29d@f1b7e686d3.com | Ü300   | 5f09af6368 | 09221991   | $1$LVkw4ebp$/MLJWPjG0d.ePfEzdj9Jh/ |         1 |         61 | android    | APA91bFS90IWf_RNfJ70WjYnvVuiwheLqzEtTd8ITrf0L2P4ZNpXV4HkYEZm0DBzD7WTRqa6ZeyyaS7nfMhIeqjqQ3ySGyZ-FTpInxiwcXap8nSehXgDDFXEn2_IPzwnVhCBEjOhPaQWaa2Zwls9DOWFuQtJDsA91Q                      | NULL                                                          | account_holder |          1 |      1 |      1 | 2016-03-31 15:34:55 | {"notify_when_left":"1","auto_start":"1","auto_start_for_driver":"1","co_guardian_access":"0"}                                                                                                          |              0 | 1429125160          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 540 | cde91dd2a0 70ee570502 | NULL   | 55b2eb0c4e@d9c1b614be.com | A120   | 9edc588751 | 10/23/2000 | $1$hRTLpeep$KyikNsGxwZoOXWQTK4SZv. |         1 |        123 | android    | APA91bEDsZgktbfMqrzbzFZmDKnSwy9ntNMdqxKEHVKUF_iMw_Gw0yq75rEb-7N8qRSCrTdj-U-uzxYHoQ87zNiVRvZ-sAbaOxsdcdZBuo-tp5SQZ2ktR1mQfd5bYKP0o6j6J7NQXO_d                                            | ["9712219114"]                                                | driver         |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"auto_reply_to_text":"1","send_tweet":"0","update_status":"0"}                                                                                                                                         |              0 | 1452476338          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 525 | e83ed74dd1 80b19bfbf9 | NULL   | e94e04b9ac@1deeda026d.com | Y000   | 5714c826a3 | 10/24/1984 | $1$Lvz.iB7e$C0Ioa0DGV2jYiqhi1W3ks. |         1 |        118 | android    | APA91bFXTVSDb24OYh_uOsfPF3ZPkB9wP9rBR9KQIIxCQUFOX6fBBcVc74L4qjSXsxDWCMWx-nKqD4CYBUBIuWh7wyVSnTmjAyFWVTUECB5qlDgugwsnJRMd5o_e7zSwePJoF7j3ZDKr                                            | NULL                                                          | individual     |       2186 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452097942          | individual_plan |              1 |  NULL | 1     |                0 |       NULL |        NULL |        0 |
+| 571 | 50c5087769 37f0ce4f8f | NULL   | 191d0c926e@4ca4a9d1fb.com | ë320   | ad3d70bc3b | 10101990   | NULL                               |      NULL |        130 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1454352077          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 601 | e1a82bbec0 de96cf73df | NULL   | 91220faeaf@0c0631a784.com | C000   | 928b280730 | 10221963   | $1$FWDfXgIL$jp8FeutltbQXV1tr19EnP/ |         1 |        142 | ios        | 73bc189f73b94d747b2734d79b7e40620583b0f255951dd8e3b1609c01d5a34b                                                                                                                        | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              1 | 1457213827          | NULL            |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 417 | 7d3c5dc0c7 d9ec5bfccf | NULL   | f5aa4f4bc8@08c157ef89.com | Î100   | dcb7dc59d6 | 10281965   | NULL                               |      NULL |         80 |            | NULL                                                                                                                                                                                    | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431194010          | individual_plan |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 553 | 750a37e998 7db659cafa | NULL   | e89e855c3c@0c424a763a.com | R000   | c54e604238 | 11-05-82   | $1$puyk.8gk$fOxjv.JEXouFWPP7GDPBT1 |         1 |        125 | android    | APA91bE4i1Sa8Nzti3pruxwyA5E3ht0lVJRimMUN4uz-M0pKAv0y3QMaBiBykVfauajVMZsRdU9VJUjXvoeasdg9y_Fj6Jnk-4Sb8ZLqqkcSRnUhy2XCVfI2C41JjnkUPM3YzFfGIVVF                                            | ["9132846650"]                                                | individual     |       2009 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452570178          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 388 | 76ccf5332a 25ee96ec37 | NULL   | 17cfbddbd8@f0527a5cc1.com | ñ162   | 8f1d0ff8d6 | 11/14/1975 | $1$mnfxAoIw$opPZawUe1ShpC7xqs12650 |         1 |         72 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1430683080          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 414 | e956fc0411 2e7f0c82b4 | NULL   | e1ecc9568e@4dbb3fae89.com | Í310   | 4181eb3604 | 11/25/1966 | $1$F3Y/TQao$f6Gd.gxglcrUTIOjdkk5f/ |         1 |         77 |            | NULL                                                                                                                                                                                    | NULL                                                          | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1431176577          | family_plan     |              0 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 589 | 426b0d8ade 3b9bc4873c | NULL   | 6718110c08@d9791ca3c7.com | ƒ100   | 4049e2e599 | 11/26/1960 | $1$xs6O5oF9$gF0Q9.LEnV082RuvTogeM. |         0 |        133 | android    | APA91bGUW8ZdEu3ZOk2FI2r-f5qkg9B1tADM1bFk5yY1DTqtmMHw9LRnMP8BI_sbIZJGIgSbrftcy8aZgcwapBqV1BrVF7wZnLOGoYDzuirHCgG079IpMO_lYFvU455TOP3XXYi99g5L                                            | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | {"auto_start":"1","auto_reply_to_text":"1","send_tweet":"0","update_status":"0"}                                                                                                                        |              1 | 1454518444          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 335 | 8183988327 0c7b42a9c1 | NULL   | 88b4491b9d@7737cdfbb3.com | Y200   | fd67912770 | 12/10/1990 | $1$EGP8JfPr$ky9vEFw5hzi/tBdHeKWtk/ |         1 |         53 | android    | APA91bENNQnF_BTZULYozvEFGvDNSdtYA1qCS9yNMaUETX-iJRtSXLeko93pG4XCY9Jfucw6gCamEYrRktQGZqPs2d_fMG5PfMmn5DuLK537qnM-_VPqTSLwOigUctLEZx8cluFId-eGpafRsZY_KYnD201BoNE0Yg                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1428122887          | NULL            |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 560 | 7312225ee9 641b125db0 | NULL   | 5d0e115be7@f2613e6985.com | K000   | e9db825bc0 | 12/21/1982 | $1$.WOmbrSx$58RSlazKpnZmhhT/dne3k0 |         1 |        127 | ios        | 26a3d0a215e9aeb7b73ca11ec37cc9966c41e68bdd5cb27dd2ab1af5bf8ff9f0                                                                                                                        | ["","",""]                                                    | account_holder |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452833981          | family_plan     |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 394 | 6d46845187 ee2f4ce130 | NULL   | af52e7db13@377656bfb5.com | X512   | f77aa68407 | 12/22/1958 | $1$j522fDE9$5DbEmUxDVNAXqZ2/dVnqB. |         1 |         74 | android    | APA91bHmRQY6EVCtvmFMoJczPeEgijKmycZVTk8zReez0EPsyQ_syHDiC3yjOHsF3mzAy9I1muiqpw5nNJ13Awbp8lAHyxPyxX1-BuL5ELAWPtvCHrAK3PBDgViZwIOYOn8C1t2PmWLhHUL5S1PDwzjR6Vn9sGrJCA                      | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1430702166          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 433 | 338ff4fd8a 8fde8606b2 | NULL   | 6c32cba5b3@6589723194.com | þ120   | 9032915a1e | 7/1/1966   | $1$6L39JH5P$k1U0DpLrQLI7p1MBeEKVm/ |         1 |        104 | android    | APA91bFhUhRu_HuooRhIHdcl_ldEbf9-gt9MexDjMKG6XC4WBP7XU_HNpC3qEV4Y2IcWoMndsMW71BGBo0x_rrJTnj6jAkiyUA9S2CJFi0HSqtrjIU5BDQaCv3EGzGmBAcNCsh8KX9qK                                            | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1434782974          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
+| 564 | e306bc0491 4d49b1e568 | NULL   | 9430104141@4a7a6451e1.com | R000   | 2a3ffd18fa | 9/22/1952  | $1$hnqxcDPT$47w/OIJE64LhcMLugnXLt1 |         1 |        128 | ios        | (null)                                                                                                                                                                                  | NULL                                                          | individual     |         -1 |      1 |      1 | 2016-03-31 15:34:55 | NULL                                                                                                                                                                                                    |              0 | 1452900146          | individual_plan |              1 |  NULL | NULL  |                0 |       NULL |        NULL |        0 |
++-----+-----------------------+--------+---------------------------+--------+------------+------------+------------------------------------+-----------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------+------------+--------+--------+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+---------------------+-----------------+----------------+-------+-------+------------------+------------+-------------+----------+
+58 rows in set (0.00 sec)
+
++--------------------+----------------+
+| COUNT(`user_type`) | user_type      |
++--------------------+----------------+
+|                  0 | NULL           |
+|                 26 | account_holder |
+|                  8 | driver         |
+|                  2 | guardian       |
+|                 33 | individual     |
++--------------------+----------------+
+5 rows in set (0.00 sec)
+
++--------------------+---------------------+--------------------+---------------------+
+| start_lat          | start_long          | end_lat            | end_long            |
++--------------------+---------------------+--------------------+---------------------+
+| 35.075802          | -106.6165826        | 35.075802          | -106.6165826        |
+| 35.0758523         | -106.6166241        | 35.0758184         | -106.6165035        |
+| 35.0758386         | -106.6165836        | 35.0758454         | -106.6166063        |
+| 35.0881417         | -106.5969775        | 35.0881417         | -106.5969775        |
+| 35.0883787         | -106.5980711        | 35.0883787         | -106.5980711        |
+| 35.0882898         | -106.597661         | 35.0883787         | -106.5980711        |
+| 35.0815342         | -106.6175258        | 35.0815342         | -106.6175258        |
+| 35.1394944         | -106.5168439        | NULL               | NULL                |
+| 35.1394616         | -106.5167989        | 35.1394869         | -106.5168113        |
+| 35.1394209         | -106.5167966        | 35.1394576         | -106.5167971        |
+| 35.140236          | -106.5278932        | 35.140236          | -106.5278932        |
+| 35.1394811         | -106.5168221        | 35.1394836         | -106.5168108        |
+| 35.140236          | -106.5278932        | 35.1441916         | -106.5232154        |
+| 35.1394884         | -106.5168343        | 35.1394544         | -106.5167916        |
+| 35.1441916         | -106.5232153        | 35.1441916         | -106.5232153        |
+| 35.1394704         | -106.5167988        | 35.1394695         | -106.5168118        |
+| null               | null                | null               | null                |
+| null               | null                | NULL               | NULL                |
+| 0                  | 0                   | 0                  | 0                   |
+| 0                  | 0                   | null               | null                |
+| 35.0752128         | -106.6175403        | 35.0752128         | -106.6175403        |
+| 35.0752128         | -106.6175403        | null               | null                |
+| 35.075814          | -106.6165256        | 35.075814          | -106.6165256        |
+| 35.0757801         | -106.616482         | 35.0757737         | -106.6164335        |
+| 35.0758023         | -106.616494         | NULL               | NULL                |
+| 0.0                | 0.0                 | 35.0752128         | -106.6175403        |
+| 35.0757719         | -106.6164488        | 35.0757791         | -106.6164713        |
+| 35.0752128         | -106.6175403        | NULL               | NULL                |
+| 35.075209          | -106.6175444        | 35.075209          | -106.6175444        |
+| 35.0881422         | -106.5970195        | 35.0881422         | -106.5970195        |
+| 35.1513847         | -106.6228325        | 35.1513847         | -106.6228325        |
+| 35.203129          | -106.6725505        | 35.2031638         | -106.6725666        |
+| 35.2031187         | -106.6725142        | 35.2031412         | -106.6725191        |
+| 36.4091492         | -105.5749318        | 36.4091492         | -105.5749318        |
+| 36.3969728         | -105.5829218        | 36.4091492         | -105.5749318        |
+| 36.4091492         | -105.5749318        | NULL               | NULL                |
+| 0.0                | 0.0                 | 36.3868322         | -105.5829291        |
+| 36.2148575         | -105.893817         | 36.133429          | -106.0016984        |
+| 35.0664967         | -106.4453129        | 35.0664967         | -106.4453129        |
+| 35.3722433         | -97.4987932         | 35.3722365         | -97.4987815         |
+| 38.9222137         | -77.0514592         | 38.9222137         | -77.0514592         |
+| 0.0                | 0.0                 | 38.9235861         | -77.0497608         |
+| 38.9233455         | -77.0513414         | 38.9233455         | -77.0513414         |
+| 35.1482554         | -106.5965797        | 35.1482592         | -106.5965731        |
+| 35.1482573         | -106.5965621        | 35.1481907         | -106.5964223        |
+| 35.148191          | -106.5964251        | NULL               | NULL                |
+| 35.148191          | -106.5964251        | 35.1722441         | -106.5760046        |
+| 35.1779491         | -106.607807         | 35.175883          | -106.5780654        |
+| 35.2031886         | -106.6725435        | 35.2031471         | -106.6725338        |
+| 35.1444177         | -106.6032634        | 35.14397           | -106.551767         |
+| 38.9228358         | -77.054502          | 38.9228358         | -77.054502          |
+| 35.1716975         | -106.5746595        | 35.1376917         | -106.5923088        |
+| 35.0751799         | -106.6175827        | 35.0751799         | -106.6175827        |
+| 35.0751799         | -106.6175827        | NULL               | NULL                |
+| 35.1594115         | -106.5594164        | 35.1756556         | -106.5780956        |
+| 35.0758007         | -106.6165955        | 35.0757934         | -106.6165556        |
+| 35.203198          | -106.6724933        | 35.2044512         | -106.6483425        |
+| 35.2044508         | -106.6483424        | NULL               | NULL                |
+| 35.0757329         | -106.6165739        | 35.0757329         | -106.6165739        |
+| 0.0                | 0.0                 | 35.0751832         | -106.6175792        |
+| 35.0751832         | -106.6175792        | 35.0751832         | -106.6175792        |
+| 35.0757895         | -106.6165935        | 35.0757895         | -106.6165935        |
+| 35.0757607         | -106.6165118        | 35.075809          | -106.6166054        |
+| 35.0881514         | -106.5970375        | 35.0881514         | -106.5970375        |
+| 35.0802952         | -106.5974437        | 35.079936          | -106.5973129        |
+| 35.0866184         | -106.6627101        | 35.0866184         | -106.6627101        |
+| null               | null                | 0.0                | 0.0                 |
+| 35.0751789         | -106.6175829        | 35.0751789         | -106.6175829        |
+| 35.0757945         | -106.6165004        | 35.0757945         | -106.6165004        |
+| 35.0757887         | -106.6165523        | 35.0758024         | -106.6165659        |
+| 35.0757901         | -106.6165577        | 35.0758037         | -106.61653          |
+| 35.1008346         | -106.5692165        | 35.1008346         | -106.5692165        |
+| 35.1008346         | -106.5692165        | 35.0752103         | -106.6176239        |
+| 35.0758125         | -106.6165011        | 35.0758077         | -106.6165086        |
+| 35.0758094         | -106.6165191        | 35.0757986         | -106.6165478        |
+| 35.085836          | -106.5987767        | 35.085898          | -106.598778         |
+| 35.2031953         | -106.6725366        | 35.2032238         | -106.6724863        |
+| 35.07567550        | -106.61679243       | 35.07587015        | -106.61677012       |
+| 35.07585032        | -106.61679990       | 35.07581599        | -106.61681937       |
+| 35.07571198        | -106.61680826       | NULL               | NULL                |
+| 35.07550306        | -106.61681847       | 35.07574719        | -106.61674337       |
+| 35.0757944         | -106.6165158        | NULL               | NULL                |
+| 35.07589269        | -106.61678801       | NULL               | NULL                |
+| 35.07599937        | -106.61690445       | 35.07569301        | -106.61681101       |
+| 35.07367800        | -106.61598890       | 35.07595317        | -106.61674962       |
+| 35.07577220        | -106.61683189       | 35.07573181        | -106.61679230       |
+| 35.07573189        | -106.61678694       | 35.07576921        | -106.61673337       |
+| 35.0757722         | -106.6164946        | 35.0758017         | -106.6165001        |
+| 35.07550927        | -106.61696016       | 35.07574842        | -106.61672366       |
+| 35.07609013        | -106.61662532       | NULL               | NULL                |
+| 35.07575238        | -106.61679804       | NULL               | NULL                |
+| 35.07583187        | -106.61678505       | NULL               | NULL                |
+| 35.07610178        | -106.61684853       | NULL               | NULL                |
+| 35.07572476        | -106.61677863       | NULL               | NULL                |
+| 35.07568386        | -106.61681051       | NULL               | NULL                |
+| 35.07573064        | -106.61678200       | NULL               | NULL                |
+| 35.07571312        | -106.61674944       | NULL               | NULL                |
+| 0.0                | 0.0                 | NULL               | NULL                |
+| 35.07568420        | -106.61677239       | 35.07483204        | -106.61684438       |
+| 35.07551896        | -106.61683017       | 35.07570250        | -106.61678123       |
+| 35.07575954        | -106.61682094       | 35.07575379        | -106.61680978       |
+| 35.07534899        | -106.61694533       | 35.07563090        | -106.62169820       |
+| 35.0757121         | -106.6165424        | 35.0757607         | -106.6164989        |
+| 35.07576569        | -106.61688739       | 35.07568425        | -106.61676432       |
+| 35.07564459        | -106.61681603       | 35.07578283        | -106.61682197       |
+| 35.07565314        | -106.61685196       | NULL               | NULL                |
+| 35.07571174        | -106.61674903       | NULL               | NULL                |
+| 35.07576021        | -106.61676684       | NULL               | NULL                |
+| 35.07577547        | -106.61669971       | 35.07572070        | -106.61681924       |
+| 35.07573783        | -106.61676880       | 35.07583993        | -106.61681108       |
+| 35.07579153        | -106.61677135       | 35.07577712        | -106.61681550       |
+| 35.07600618        | -106.61678519       | 35.07598934        | -106.61697853       |
+| 35.26741566        | -106.61871635       | 35.26744391        | -106.61858149       |
+| 35.0757567         | -106.616565         | NULL               | NULL                |
+| 35.26740467        | -106.61843724       | 35.26720196        | -106.61854662       |
+| 35.26738490        | -106.61845408       | 35.26738490        | -106.61845408       |
+| 35.26744183        | -106.61867852       | 35.26745007        | -106.61867738       |
+| 35.26747266        | -106.61862231       | 35.26747040        | -106.61862365       |
+| 35.0858961         | -106.5986908        | NULL               | NULL                |
+| 35.0858599         | -106.5987236        | NULL               | NULL                |
+| 35.0858652         | -106.5987301        | NULL               | NULL                |
+| 35.0859398         | -106.598724         | NULL               | NULL                |
+| 35.0859474         | -106.5988128        | NULL               | NULL                |
+| 35.0859419         | -106.5987305        | NULL               | NULL                |
+| 35.0859122         | -106.5987174        | NULL               | NULL                |
+| 35.0859795         | -106.5987302        | NULL               | NULL                |
+| 35.0858933         | -106.5987661        | NULL               | NULL                |
+| 35.0859176         | -106.5987127        | NULL               | NULL                |
+| 35.0858627         | -106.5987292        | NULL               | NULL                |
+| 35.0859404         | -106.5986955        | NULL               | NULL                |
+| 35.0859055         | -106.5988321        | NULL               | NULL                |
+| 35.0858477         | -106.5986983        | NULL               | NULL                |
+| 35.085857          | -106.598698         | NULL               | NULL                |
+| 35.0858652         | -106.5987294        | NULL               | NULL                |
+| 35.0858576         | -106.598714         | NULL               | NULL                |
+| 35.0858668         | -106.5987355        | NULL               | NULL                |
+| 35.0858693         | -106.5987338        | NULL               | NULL                |
+| 35.0858899         | -106.598766         | NULL               | NULL                |
+| 35.0858663         | -106.5987611        | 35.0858826         | -106.5987173        |
+| 35.0858852         | -106.5986711        | 35.085915          | -106.598728         |
+| 35.0757612         | -106.6165028        | 35.0757817         | -106.6165503        |
+| 35.07774732        | -106.61935119       | 35.07739391        | -106.61984844       |
+| 35.07901473        | -106.61786940       | 35.07811522        | -106.61973266       |
+| 35.20355824        | -106.67224715       | 35.20289420        | -106.67263177       |
+| 35.20258221        | -106.66011282       | 35.12363177        | -106.53141845       |
+| 35.0825153         | -106.6262657        | 35.0825595         | -106.626227         |
+| 35.14689973        | -106.52241808       | 35.20357654        | -106.67148014       |
+| 35.20063990        | -106.66551445       | 35.10619591        | -106.64947618       |
+| 35.17453567        | -106.59627456       | NULL               | NULL                |
+| 35.18145862        | -106.63731102       | 35.20358753        | -106.67272279       |
+| 0.0                | 0.0                 | 35.0859426         | -106.5986351        |
+| 35.0858994         | -106.5986974        | 35.0859568         | -106.5986851        |
+| 35.0859568         | -106.5986851        | 35.0859874         | -106.5986181        |
+| 35.0859877         | -106.5986177        | 35.0859008         | -106.5987237        |
+| 35.0859751         | -106.5986244        | 35.0859751         | -106.5986244        |
+| 35.0757671         | -106.6165838        | 35.075788          | -106.616551         |
+| 35.0757988         | -106.6165442        | 35.0757898         | -106.6165284        |
+| 35.075786          | -106.616528         | NULL               | NULL                |
+| 35.075786          | -106.616528         | 35.0757492         | -106.6165085        |
+| 35.0758098         | -106.6166093        | 35.0758128         | -106.6165887        |
+| 35.0757993         | -106.6165581        | 35.075814          | -106.6165985        |
+| 35.0758085         | -106.6166038        | 35.0757979         | -106.6165968        |
+| 35.0757979         | -106.6165968        | 35.0757955         | -106.6166049        |
+| 35.0757903         | -106.616603         | 35.0758001         | -106.6166024        |
+| 35.0757556         | -106.6165076        | 35.0757493         | -106.6165666        |
+| 35.2032119         | -106.6725216        | 35.2032063         | -106.6725206        |
+| 35.2032073         | -106.6725218        | 35.2031866         | -106.672455         |
+| 35.14033712        | -106.51685477       | 35.14019660        | -106.51680369       |
+| 35.0883516         | -106.6652378        | 35.0883446         | -106.6652583        |
+| 35.0882887         | -106.6653044        | 35.0882847         | -106.6653023        |
+| 35.0883543         | -106.6653279        | 35.0883481         | -106.6652433        |
+| 35.0883455         | -106.6653341        | 35.0883494         | -106.6652756        |
+| 35.0883351         | -106.6652537        | NULL               | NULL                |
+| 35.088335          | -106.6652316        | 35.0883054         | -106.6652114        |
+| 35.0883281         | -106.6652243        | 35.0883676         | -106.6652914        |
+| 35.0882812         | -106.6651862        | 35.088353          | -106.6652155        |
+| 35.089609          | -106.6645323        | 35.089609          | -106.6645323        |
+| 35.089144          | -106.6637414        | 35.0836278         | -106.6566699        |
+| 35.0831404         | -106.6566181        | 35.0831404         | -106.6566181        |
+| 35.0822978         | -106.6585036        | NULL               | NULL                |
+| 35.15796946        | -106.52430595       | 35.20340255        | -106.67249487       |
+| 35.09644707        | -106.64107176       | 35.10791731        | -106.62052516       |
+| 35.14007691        | -106.51798532       | 35.20119770        | -106.66044834       |
+| 35.0808624         | -106.6210561        | 35.0808575         | -106.6210597        |
+| 35.09111967        | -106.51531762       | 35.08508094        | -106.52885959       |
+| 35.20368759        | -106.67264317       | 35.20344489        | -106.67242717       |
+| 35.2031861         | -106.6724774        | 35.2031861         | -106.6724774        |
+| 35.20380929        | -106.67272426       | 35.19978506        | -106.66668756       |
+| 35.10600598        | -106.58787891       | 35.11053411        | -106.60749233       |
+| 35.10933104        | -106.58794822       | 35.14040011        | -106.51727714       |
+| 35.14022446        | -106.51663798       | 35.13987553        | -106.51680876       |
+| 35.14014857        | -106.51702568       | 35.20790854        | -106.67451538       |
+| 35.20747392        | -106.65843193       | 35.20747380        | -106.65843199       |
+| 0.0                | 0.0                 | 35.0758095         | -106.6165397        |
+| 35.0758067         | -106.6165856        | 35.0758138         | -106.616586         |
+| 35.0759985         | -106.6168837        | 35.0758109         | -106.6165989        |
+| 35.0883244         | -106.6652397        | 35.0883259         | -106.6652506        |
+| 35.0882482         | -106.6650003        | 35.0882482         | -106.6650003        |
+| 35.0883154         | -106.6652444        | 35.0883391         | -106.6652409        |
+| 35.0883062         | -106.6652385        | 35.0882947         | -106.6652286        |
+| 35.0883445         | -106.6652365        | 35.0883424         | -106.6652474        |
+| 35.0883282         | -106.6652149        | 35.0883766         | -106.6652218        |
+| 35.0883704         | -106.6652871        | 35.0883187         | -106.6652224        |
+| 35.0883585         | -106.6652653        | NULL               | NULL                |
+| 35.0882991         | -106.6652423        | 35.0882991         | -106.6652423        |
+| 35.08853072        | -106.66512284       | 35.08870842        | -106.66516406       |
+| 35.08829611        | -106.66484976       | 35.08835751        | -106.66494473       |
+| 35.08843680        | -106.66497457       | 35.08853256        | -106.66488287       |
+| 35.0882138         | -106.6651109        | 35.0883027         | -106.6652634        |
+| 35.0883002         | -106.6652636        | 35.0883024         | -106.6652203        |
+| 35.0883024         | -106.6652203        | 35.0883117         | -106.6652926        |
+| 35.0883019         | -106.665296         | 35.0882874         | -106.6652946        |
+| 35.0882901         | -106.6652624        | 35.0883018         | -106.6652229        |
+| 35.0883018         | -106.6651974        | NULL               | NULL                |
+| 35.088324          | -106.6652242        | NULL               | NULL                |
+| 35.08817333        | -106.66535481       | 35.10523149        | -106.61762562       |
+| 35.0884067         | -106.6653282        | 35.0883102         | -106.665263         |
+| 35.0880372         | -106.6647454        | 35.0880679         | -106.6647848        |
+| 35.20366619        | -106.67240054       | 35.20351648        | -106.67242333       |
+| 35.2033212         | -106.6724672        | 35.2033212         | -106.6724672        |
+| 35.2033275         | -106.6724738        | 35.2033275         | -106.6724738        |
+| 35.2033263         | -106.6724749        | 35.2033263         | -106.6724749        |
+| 35.20354933        | -106.67243987       | 35.20423681        | -106.67187631       |
+| 35.20419499        | -106.67190665       | 35.20349187        | -106.67222274       |
+| 35.20373333        | -106.67207178       | 35.20372866        | -106.67218867       |
+| 35.2033175         | -106.6724712        | 35.2032757         | -106.6724816        |
+| 35.20379963        | -106.67222877       | NULL               | NULL                |
+| 35.0883567         | -106.6653296        | 35.0758089         | -106.6165625        |
+| 0.0                | 0.0                 | 35.0758198         | -106.6165652        |
+| 35.0758212         | -106.6165806        | 35.0758193         | -106.6165633        |
+| 35.0758127         | -106.6165639        | 35.0758127         | -106.6165639        |
+| 35.0758196         | -106.6165656        | 35.0758116         | -106.616565         |
+| 35.0758184         | -106.6165588        | 35.0758168         | -106.6165604        |
+| 35.0758156         | -106.6165614        | 35.0758241         | -106.6165702        |
+| 35.0758196         | -106.616561         | 35.0758188         | -106.6165568        |
+| 35.0758238         | -106.6165589        | 35.0758267         | -106.616554         |
+| 35.075816          | -106.6165606        | 35.075816          | -106.6165606        |
+| 35.0758004         | -106.6165289        | 35.0758229         | -106.6165625        |
+| 35.0758186         | -106.6165714        | 35.0758268         | -106.6165631        |
+| 35.0758171         | -106.6165707        | 35.075814          | -106.6165663        |
+| 35.0758113         | -106.6165172        | 35.0758109         | -106.6165149        |
+| 35.0757298         | -106.6164671        | 35.075758          | -106.6165066        |
+| 35.0757961         | -106.6165124        | 35.0758134         | -106.6165078        |
+| 35.0757958         | -106.6165357        | 35.0757958         | -106.6165357        |
+| 35.0758126         | -106.6165117        | 35.0758143         | -106.6164852        |
+| 35.0757915         | -106.6165389        | 35.075769          | -106.6165277        |
+| 35.0758157         | -106.6165121        | 35.0757946         | -106.6165385        |
+| 35.0757984         | -106.6165186        | 35.0757984         | -106.6165186        |
+| 35.0758147         | -106.6165124        | 35.0758163         | -106.6165126        |
+| 35.075798          | -106.6165465        | 35.0758186         | -106.6165139        |
+| 35.0757886         | -106.616552         | 35.0757886         | -106.616552         |
+| 35.0804918         | -106.6212877        | 35.0804918         | -106.6212877        |
+| 35.0805017         | -106.621248         | 35.0805017         | -106.621248         |
+| 35.13935648        | -106.51686451       | 35.13935648        | -106.51686451       |
+| 35.0758126         | -106.6165244        | 35.0758126         | -106.6165244        |
+| null               | null                | 35.075818          | -106.6165023        |
+| 35.0758078         | -106.6165073        | 35.0758154         | -106.6165141        |
+| 35.0757985         | -106.6165404        | 35.0757993         | -106.6165446        |
+| 35.0757969         | -106.6165435        | 35.0758163         | -106.6165089        |
+| 35.0758133         | -106.616513         | 35.0758186         | -106.6165185        |
+| 35.0757508         | -106.6165394        | NULL               | NULL                |
+| 35.0758064         | -106.6164828        | 35.0757905         | -106.6164251        |
+| 35.0758008         | -106.6164823        | 35.0758082         | -106.6165138        |
+| 35.075804          | -106.616503         | 35.0758034         | -106.6164977        |
+| 35.0758002         | -106.6165063        | 35.0757914         | -106.6165124        |
+| 35.0758            | -106.6165064        | 35.0757968         | -106.6165051        |
+| 35.0757943         | -106.6165133        | 35.0757979         | -106.6164991        |
+| 35.0757947         | -106.6165131        | 35.0758009         | -106.6165317        |
+| 35.0751351         | -106.6174018        | 35.0757193         | -106.616327         |
+| 35.0758598         | -106.6161394        | 35.0758598         | -106.6161394        |
+| 35.0757046         | -106.6162077        | 35.0757008         | -106.6160243        |
+| 35.0757159         | -106.616019         | 35.0757159         | -106.616019         |
+| 35.0757093         | -106.6160144        | 35.0757463         | -106.6159963        |
+| 35.0757673         | -106.6160743        | NULL               | NULL                |
+| 35.0757492         | -106.6160406        | 35.0757303         | -106.6159978        |
+| 35.0757347         | -106.6160738        | 35.0757253         | -106.616068         |
+| 35.0757177         | -106.6159948        | 35.0757099         | -106.6159372        |
+| 35.0757094         | -106.6159267        | 35.0757252         | -106.6159386        |
+| 35.0757163         | -106.6159317        | 35.0757261         | -106.6160163        |
+| 35.07573           | -106.6160095        | 35.0757383         | -106.6160785        |
+| 35.080969          | -106.6197432        | 35.1732524         | -106.5587745        |
+| 35.10277258        | -106.58136778       | 35.08740333        | -106.63703621       |
+| 35.0838222         | -106.6219084        | 35.0838388         | -106.6219264        |
+| 35.1075112         | -106.6490807        | 35.0965329         | -106.6495963        |
+| 35.07591155        | -106.61671375       | NULL               | NULL                |
+| 35.07597174        | -106.61685993       | NULL               | NULL                |
+| 35.07599261        | -106.61679254       | 35.07598293        | -106.61678944       |
+| 35.10261341        | -106.67084316       | 35.08751275        | -106.66384545       |
+| 35.08845714        | -106.66529093       | 35.08976273        | -106.61956880       |
+| null               | null                | 35.0861042         | -106.6459467        |
+| 35.0857503         | -106.6442156        | 35.0858408         | -106.6440239        |
+| 35.17504009        | -106.60935377       | 35.20014897        | -106.66064604       |
+| 35.15234916        | -106.52428178       | 35.20001011        | -106.66065102       |
+| 35.0778388         | -106.6223786        | 35.0778131         | -106.6224516        |
+| 35.0778594         | -106.6222773        | 35.077849          | -106.6222724        |
+| 36.5952295         | -105.4508705        | 36.595231          | -105.450617         |
+| 36.465437          | -105.6611794        | 36.4654406         | -105.6611815        |
+| 36.4501026         | -105.6193545        | 36.4501026         | -105.6193545        |
+| 36.5950662         | -105.4499302        | 36.5922664         | -105.4547437        |
+| 36.5951839         | -105.4511051        | 36.4069389         | -105.611398         |
+| 35.075797          | -106.6165195        | 35.0757328         | -106.6163367        |
+| 35.075774          | -106.6164785        | 35.0757808         | -106.6164879        |
+| 35.0758038         | -106.6165393        | 35.075795          | -106.6165132        |
+| 35.0758177         | -106.6166245        | 35.07579           | -106.6165389        |
+| 35.0757972         | -106.6165207        | 35.0757972         | -106.6165207        |
+| 35.1639431         | -106.5870941        | 35.1639431         | -106.5870941        |
+| 35.1649871         | -106.5857679        | 35.0756898         | -106.616033         |
+| 35.0757128         | -106.6162325        | 35.0757327         | -106.6163675        |
+| 35.0757245         | -106.6160551        | 35.0757733         | -106.6162593        |
+| 35.0814592         | -106.6209786        | 35.0814592         | -106.6209786        |
+| 35.080482          | -106.6096127        | 35.0805413         | -106.6094569        |
+| 35.13993701        | -106.51688998       | 35.14007628        | -106.51671513       |
+| 35.14417168        | -106.51878010       | 35.20345269        | -106.67239884       |
+| 0.0                | 0.0                 | null               | null                |
+| 35.11419577        | -106.61457133       | 35.11435113        | -106.61454066       |
+| 35.1022176         | -106.6478662        | 35.1022253         | -106.6478801        |
+| 35.1022715         | -106.6478393        | 35.102228          | -106.6478801        |
+| 35.0998412         | -106.6487542        | 35.0757988         | -106.6165879        |
+| 35.0825949         | -106.6263605        | NULL               | NULL                |
+| 35.0826271         | -106.6264077        | NULL               | NULL                |
+| 35.0759717         | -106.6166982        | 35.0782799         | -106.6171383        |
+| 35.077274          | -106.6224295        | 35.0662524         | -106.4462009        |
+| null               | null                | 35.0757923         | -106.6165794        |
+| 35.0757985         | -106.6165946        | 35.0757985         | -106.6165946        |
+| 35.0758142         | -106.6165994        | 35.0758142         | -106.6165994        |
+| 35.0757971         | -106.6165858        | 35.0757971         | -106.6165858        |
+| 35.0757837         | -106.6165882        | 35.0757837         | -106.6165882        |
+| 35.0757943         | -106.6165833        | 35.0757844         | -106.6165822        |
+| 35.0807104         | -106.6183423        | 35.0807104         | -106.6183423        |
+| 35.0809418         | -106.6194636        | 35.0813557         | -106.6346734        |
+| 35.1338402         | -106.6060606        | 35.1338036         | -106.6061227        |
+| 35.0859301         | -106.6229463        | 35.0859301         | -106.6229463        |
+| 35.0859301         | -106.6229463        | NULL               | NULL                |
+| 0.0                | 0.0                 | 35.0757923         | -106.6165274        |
+| 35.0757472         | -106.6165436        | 35.0757472         | -106.6165436        |
+| 35.0758105         | -106.6166402        | 35.0758105         | -106.6166402        |
+| 35.0806992         | -106.6161129        | 35.0800419         | -106.6056789        |
+| 35.078362          | -106.604639         | NULL               | NULL                |
+| 35.078362          | -106.604639         | 0.0                | 0.0                 |
+| 0.0                | 0.0                 | 0.0                | 0.0                 |
+| 35.0757464         | -106.6165139        | 35.0757464         | -106.6165139        |
+| 35.0757464         | -106.6165139        | NULL               | NULL                |
+| 35.0757473         | -106.616522         | NULL               | NULL                |
+| 35.0757473         | -106.616522         | 35.0757495         | -106.6165302        |
+| 35.0757495         | -106.6165302        | 35.0757512         | -106.6165316        |
+| 35.0757512         | -106.6165316        | 35.0757227         | -106.6163917        |
+| 35.0757227         | -106.6163917        | NULL               | NULL                |
+| 35.0757503         | -106.616496         | 35.0757679         | -106.6165757        |
+| 35.075768          | -106.6165682        | 35.0757472         | -106.6165089        |
+| 35.0859291         | -106.5987251        | NULL               | NULL                |
+| 35.0860593         | -106.5988377        | 35.0860593         | -106.5988377        |
+| 35.0858628         | -106.5985961        | NULL               | NULL                |
+| 35.0818625         | -106.6231927        | 35.0818625         | -106.6231927        |
+| 35.0818625         | -106.6231927        | 35.0818393         | -106.6231454        |
+| 35.0818393         | -106.6231454        | 35.0818394         | -106.6231648        |
+| 35.0818394         | -106.6231648        | 35.0818394         | -106.6231648        |
+| 35.0818675         | -106.6231218        | 35.0818675         | -106.6231218        |
+| 35.0818675         | -106.6231218        | NULL               | NULL                |
+| 35.0818861         | -106.622981         | NULL               | NULL                |
+| 35.0818931         | -106.6229952        | NULL               | NULL                |
+| 35.0818931         | -106.6229952        | 35.0818931         | -106.6229952        |
+| 35.0807766         | -106.6241205        | 35.0807766         | -106.6241205        |
+| 35.0807766         | -106.6241205        | 35.0819378         | -106.6230915        |
+| 35.0819226         | -106.6230333        | NULL               | NULL                |
+| 35.0819527         | -106.6230773        | NULL               | NULL                |
+| 35.0818962         | -106.6230038        | 35.0819511         | -106.6230631        |
+| 35.0819511         | -106.6230631        | NULL               | NULL                |
+| 35.0819096         | -106.6230079        | NULL               | NULL                |
+| 35.0819177         | -106.6230729        | 35.0819295         | -106.6230309        |
+| 35.0819295         | -106.6230309        | NULL               | NULL                |
+| 35.0819313         | -106.6230282        | 35.0818766         | -106.6230559        |
+| 35.0818992         | -106.6229662        | 35.0818992         | -106.6229662        |
+| 35.0818992         | -106.6229662        | 35.0818988         | -106.6230107        |
+| 35.0818988         | -106.6230107        | 35.0818988         | -106.6230107        |
+| 35.0818817         | -106.6230547        | 35.0818817         | -106.6230547        |
+| 35.0819207         | -106.6230935        | NULL               | NULL                |
+| 35.0818785         | -106.6231002        | 35.0818785         | -106.6231002        |
+| 35.0818785         | -106.6231002        | NULL               | NULL                |
+| 35.0818108         | -106.6231346        | NULL               | NULL                |
+| 35.0819229         | -106.6230291        | 35.0819229         | -106.6230291        |
+| 35.0819136         | -106.6230637        | NULL               | NULL                |
+| 35.0819136         | -106.6230637        | 35.0819012         | -106.6229582        |
+| 35.0818868         | -106.6230959        | 35.0818868         | -106.6230959        |
+| 35.0819074         | -106.6230683        | 35.0819074         | -106.6230683        |
+| 35.0819406         | -106.6231046        | NULL               | NULL                |
+| 35.0819612         | -106.623136         | 35.0819612         | -106.623136         |
+| 35.0757563         | -106.616564         | NULL               | NULL                |
+| 35.075753          | -106.6165307        | NULL               | NULL                |
+| 35.0757969         | -106.6165508        | 35.0757743         | -106.6165471        |
+| 35.07577           | -106.6165251        | NULL               | NULL                |
+| 35.075752          | -106.6165538        | 35.075752          | -106.6165538        |
+| 35.0757834         | -106.6165466        | 35.0757834         | -106.6165466        |
+| 35.0757834         | -106.6165466        | NULL               | NULL                |
+| 35.0758153         | -106.6166221        | 35.0758153         | -106.6166221        |
+| 35.0757467         | -106.6165098        | NULL               | NULL                |
+| 35.0757763         | -106.61658          | 35.0757763         | -106.61658          |
+| 35.0757763         | -106.61658          | 35.0757515         | -106.616521         |
+| 35.0757515         | -106.616521         | NULL               | NULL                |
+| 35.0757491         | -106.6165304        | NULL               | NULL                |
+| 35.0757675         | -106.6165824        | 35.0757675         | -106.6165824        |
+| 35.0758003         | -106.6165916        | 35.0758003         | -106.6165916        |
+| 35.0758003         | -106.6165916        | NULL               | NULL                |
+| 35.075797          | -106.6166159        | NULL               | NULL                |
+| 35.075797          | -106.6166159        | 35.075797          | -106.6166159        |
+| 35.0757809         | -106.6165845        | 35.0757809         | -106.6165845        |
+| 35.0757809         | -106.6165845        | NULL               | NULL                |
+| 35.0757798         | -106.6165578        | 35.0757803         | -106.6165663        |
+| 35.0757803         | -106.6165663        | NULL               | NULL                |
+| 35.0757979         | -106.616578         | 35.0757979         | -106.616578         |
+| 35.0757979         | -106.616578         | 35.075777          | -106.6165614        |
+| 35.0758211         | -106.6166488        | 35.0758153         | -106.616618         |
+| 35.0758153         | -106.616618         | 35.0758153         | -106.616618         |
+| 35.0758158         | -106.6166084        | 35.0758158         | -106.6166084        |
+| 35.0758052         | -106.6165722        | 35.0758052         | -106.6165722        |
+| 35.0758052         | -106.6165722        | 35.0758142         | -106.6165703        |
+| 35.0758142         | -106.6165703        | 35.0757968         | -106.616618         |
+| 35.0757968         | -106.616618         | NULL               | NULL                |
+| 35.0757848         | -106.616557         | 35.0757928         | -106.6165513        |
+| 35.0758212         | -106.6166125        | NULL               | NULL                |
+| 35.0758022         | -106.6165794        | NULL               | NULL                |
+| 35.0757699         | -106.6165901        | 35.0757699         | -106.6165901        |
+| 35.0758192         | -106.6165575        | 35.0758192         | -106.6165575        |
+| 35.0758192         | -106.6165575        | 35.0758043         | -106.6166369        |
+| 35.075805          | -106.6165784        | 35.075805          | -106.6165784        |
+| 35.075795          | -106.6165426        | 35.0758049         | -106.6166159        |
+| 35.0758049         | -106.6166159        | 35.0758049         | -106.6166159        |
+| 35.0758049         | -106.6166159        | 35.075797          | -106.6165959        |
+| 35.0758085         | -106.6165708        | 35.0757947         | -106.6166164        |
+| 35.0757932         | -106.6165448        | 35.0757932         | -106.6165448        |
+| 35.0758054         | -106.6165775        | 35.0758054         | -106.6165775        |
+| 35.075802          | -106.6165861        | 35.0758039         | -106.6165846        |
+| 35.0758105         | -106.6165701        | 35.0758105         | -106.6165701        |
+| 35.0758105         | -106.6165701        | NULL               | NULL                |
+| 35.0758049         | -106.6165912        | NULL               | NULL                |
+| 35.0758049         | -106.6165912        | 35.0757772         | -106.6165468        |
+| 35.0757772         | -106.6165468        | 35.0757958         | -106.6165859        |
+| 35.0758046         | -106.6165657        | 35.0758046         | -106.6165657        |
+| 35.0757944         | -106.6165388        | 35.0757944         | -106.6165388        |
+| 35.0757434         | -106.6165851        | 35.0757672         | -106.6165851        |
+| 35.0757672         | -106.6165851        | 35.0757781         | -106.616543         |
+| 35.0757964         | -106.6166177        | 35.0757964         | -106.6166177        |
+| 35.0825645         | -106.6262559        | 35.0825497         | -106.6262683        |
+| 35.0861168         | -106.623264         | 35.0861112         | -106.6232809        |
+| 35.0860774         | -106.6231561        | 35.0861248         | -106.6231846        |
+| 35.0758191         | -106.6166605        | 35.2033539         | -106.6725532        |
+| 35.0757771         | -106.6165684        | 35.0757771         | -106.6165684        |
+| 35.0758688         | -106.6167651        | 35.0757862         | -106.6165477        |
+| 35.0757833         | -106.6164922        | 35.0757872         | -106.6165082        |
+| 35.0757793         | -106.6164758        | 35.075774          | -106.6164665        |
+| 35.07576           | -106.6165177        | 35.0757571         | -106.6165138        |
+| 35.0757936         | -106.6165447        | 35.0757758         | -106.6165457        |
+| 35.0758159         | -106.6165975        | 35.0757733         | -106.6165056        |
+| 35.0757805         | -106.6165324        | 35.0757889         | -106.6165105        |
+| 35.0757857         | -106.6165093        | 35.0757923         | -106.6165803        |
+| 35.075794          | -106.6165288        | 35.0758145         | -106.6166374        |
+| 35.0758166         | -106.6166508        | 35.0757873         | -106.6165661        |
+| 35.0758096         | -106.6166068        | 35.0758927         | -106.6167567        |
+| 35.0757925         | -106.6165372        | 35.0757857         | -106.616523         |
+| 35.075786          | -106.616509         | 35.0757831         | -106.6165067        |
+| 35.075777          | -106.6165321        | 35.0759806         | -106.6168081        |
+| 35.0759154         | -106.6167892        | 35.0757672         | -106.6165015        |
+| 35.0758967         | -106.6167394        | 35.0757894         | -106.6165419        |
+| 35.0757934         | -106.61654          | 35.0757491         | -106.6164804        |
+| 35.0758005         | -106.6165933        | 35.0758005         | -106.6165933        |
+| 35.0757846         | -106.6165016        | 35.0757848         | -106.6165327        |
+| 35.0757906         | -106.6165515        | 35.075788          | -106.6165424        |
+| 35.0757605         | -106.6165286        | 35.0757954         | -106.6165449        |
+| 35.075813          | -106.616572         | 35.0757977         | -106.6166142        |
+| 35.075806          | -106.6165574        | 35.075806          | -106.6165574        |
+| 35.075807          | -106.6165832        | 35.075807          | -106.6165832        |
+| 35.0758003         | -106.6166034        | 35.0758003         | -106.6166034        |
+| 35.07588125        | -106.61687485       | 35.07585213        | -106.61682875       |
+| 35.0758079         | -106.616576         | 35.075786          | -106.6165546        |
+| 35.0757936         | -106.6165616        | 35.07579           | -106.6165264        |
+| 35.0757871         | -106.6165553        | 35.0757834         | -106.6165122        |
+| 35.07585334        | -106.61684786       | 35.07585334        | -106.61684786       |
+| 35.07581173        | -106.61661007       | 35.07585871        | -106.61670897       |
+| 35.07591740        | -106.61683946       | 35.07598461        | -106.61671817       |
+| 35.0757602         | -106.6165514        | 35.0757602         | -106.6165514        |
+| 35.0758053         | -106.6165897        | 35.0758053         | -106.6165897        |
+| 35.0757914         | -106.6165302        | 35.0757694         | -106.6165092        |
+| 35.07573566        | -106.61684518       | 35.07573566        | -106.61684518       |
+| 35.07618577        | -106.61669581       | 35.07596159        | -106.61676630       |
+| 35.0757774         | -106.6165271        | 35.0757899         | -106.6165161        |
+| 35.0757888         | -106.6165237        | 35.0757994         | -106.6165779        |
+| 35.0757946         | -106.616569         | 35.0759004         | -106.6167364        |
+| 35.075908          | -106.6167409        | 35.0758675         | -106.6167125        |
+| 35.0758084         | -106.6165968        | 35.0758084         | -106.6165968        |
+| 35.0757828         | -106.6165429        | 35.0758728         | -106.6167074        |
+| 35.0757869         | -106.6165884        | 35.0757869         | -106.6165884        |
+| 35.0757873         | -106.6165536        | 35.0757914         | -106.6165241        |
+| 35.075795          | -106.616589         | 35.075795          | -106.616589         |
+| 35.0757848         | -106.6165114        | 35.0757936         | -106.6165392        |
+| 35.0757888         | -106.6165124        | 35.0757854         | -106.6165114        |
+| 35.0757921         | -106.616528         | 35.0757909         | -106.6165237        |
+| 35.0757912         | -106.6165531        | 35.075775          | -106.6165196        |
+| 35.0757814         | -106.6165502        | 35.0757898         | -106.6165223        |
+| 35.0757886         | -106.6165154        | 35.0757761         | -106.6165006        |
+| 35.0760196         | -106.6168066        | 35.0757753         | -106.6165098        |
+| 35.0757784         | -106.6165275        | 35.0758182         | -106.6166219        |
+| 35.0758049         | -106.616559         | NULL               | NULL                |
+| 35.0757456         | -106.6164799        | NULL               | NULL                |
+| 35.075734          | -106.6164237        | NULL               | NULL                |
+| 35.0758064         | -106.6165909        | NULL               | NULL                |
+| 35.0757575         | -106.6165299        | NULL               | NULL                |
+| 35.0757908         | -106.6165605        | NULL               | NULL                |
+| 35.0757914         | -106.616531         | NULL               | NULL                |
+| 35.0757893         | -106.6165294        | NULL               | NULL                |
+| 35.0757942         | -106.6165681        | 35.0757854         | -106.6165456        |
+| 35.0758717         | -106.6167244        | 35.0758027         | -106.6165552        |
+| 35.075882          | -106.6167387        | 35.0757375         | -106.6164431        |
+| 35.0757819         | -106.6165288        | 35.0757871         | -106.6165629        |
+| 35.14019275        | -106.51682359       | 35.14019275        | -106.51682359       |
+| 35.13999816        | -106.51668839       | 35.20049907        | -106.66344722       |
+| 35.0757823         | -106.6165959        | 35.0758109         | -106.6165998        |
+| 35.0758109         | -106.6165998        | 35.0757991         | -106.6165768        |
+| 35.0757991         | -106.6165768        | 35.0757991         | -106.6165768        |
+| 35.0758259         | -106.6166043        | 35.0758259         | -106.6166043        |
+| 35.0758153         | -106.6166175        | 35.0757959         | -106.6165657        |
+| 35.0758016         | -106.6166005        | 35.0758115         | -106.6166053        |
+| 35.0758165         | -106.6166208        | 35.0758165         | -106.6166208        |
+| 35.0758861         | -106.6167649        | 35.0758861         | -106.6167649        |
+| 35.0759034         | -106.6167926        | 35.0759034         | -106.6167926        |
+| 35.0758605         | -106.616719         | 35.0758605         | -106.616719         |
+| 35.0758126         | -106.616636         | 35.0758126         | -106.616636         |
+| 35.0758167         | -106.6166327        | 35.0758167         | -106.6166327        |
+| 35.0758619         | -106.6167185        | 35.0758192         | -106.6166286        |
+| 35.0757986         | -106.6165999        | 35.0758185         | -106.6166101        |
+| 35.0758111         | -106.6165959        | 35.0758231         | -106.6166113        |
+| 35.0758241         | -106.6166137        | 35.0758076         | -106.6166328        |
+| 35.0758325         | -106.6166627        | 35.0758073         | -106.616618         |
+| 35.0758168         | -106.6166033        | 35.0757601         | -106.6165493        |
+| 35.075804          | -106.6165987        | 35.0758003         | -106.6165976        |
+| 35.0758003         | -106.6165976        | 35.0758003         | -106.6165976        |
+| 35.0758044         | -106.6165816        | 35.0757986         | -106.6165864        |
+| 35.0757986         | -106.6165864        | 35.0758119         | -106.6165914        |
+| 35.0757838         | -106.6165569        | 35.0758102         | -106.6165953        |
+| 35.0758059         | -106.6165643        | 35.0758059         | -106.6165643        |
+| 35.0758233         | -106.6166267        | 35.0758233         | -106.6166267        |
+| 35.075847          | -106.6166485        | 35.0758762         | -106.6167212        |
+| 35.0757849         | -106.6165836        | 35.0757849         | -106.6165836        |
+| 35.0758036         | -106.6166163        | 35.0758141         | -106.616592         |
+| 35.075811          | -106.6166172        | 35.075811          | -106.6166172        |
+| 35.07587346        | -106.61682196       | 35.07587346        | -106.61682196       |
+| 35.19669750        | -106.65314628       | 35.19670505        | -106.65315785       |
+| 35.0757064         | -106.6163843        | 35.0757197         | -106.6164654        |
+| 35.0757154         | -106.6164271        | 35.075761          | -106.6164811        |
+| 35.0757757         | -106.6165597        | 35.0757752         | -106.6165332        |
+| 35.14804486        | -106.52555953       | 35.20139032        | -106.66780047       |
+| 35.0803228         | -106.6129996        | NULL               | NULL                |
+| 35.20355130        | -106.67250688       | 35.20363122        | -106.67253136       |
+| 35.20359363        | -106.67245843       | 35.20349181        | -106.67252024       |
+| 35.20351333        | -106.67259775       | 35.20341729        | -106.67237518       |
+| 35.08844605        | -106.66547914       | 35.08908514        | -106.62341952       |
+| 35.0757862         | -106.6165303        | 35.0757957         | -106.6165572        |
+| 35.0757897         | -106.6165231        | 35.0757897         | -106.6165231        |
+| 35.13097714        | -106.51582397       | 35.09422371        | -106.62681176       |
+| 35.3187393         | -106.5739485        | 35.3187439         | -106.5738604        |
+| 35.3187439         | -106.5738604        | 35.3186658         | -106.5741702        |
+| 35.3186658         | -106.5741702        | 35.3186658         | -106.5741702        |
+| 35.3187732         | -106.5737981        | 35.3187732         | -106.5737981        |
+| 35.3187998         | -106.5738146        | 35.3187998         | -106.5738146        |
+| 35.14014665        | -106.51724914       | 35.20339925        | -106.67254251       |
+| 35.20339925        | -106.67254251       | 35.20341300        | -106.67252222       |
+| 35.2813322         | -106.6126847        | 35.2729731         | -106.6152252        |
+| 35.2700293         | -106.614533         | 35.2733486         | -106.612691         |
+| 35.2733486         | -106.612691         | 35.2697682         | -106.6220082        |
+| 0.0                | 0.0                 | 35.1867178         | -106.6150924        |
+| 35.2696451         | -106.6220114        | 35.2718431         | -106.6201365        |
+| 35.2699041         | -106.6153735        | 35.2685269         | -106.6150203        |
+| 35.2683546         | -106.6161449        | 35.2683546         | -106.6161449        |
+| 35.2678602         | -106.6181426        | 35.2675673         | -106.6183283        |
+| 33.4449745         | -111.9255072        | 33.4449745         | -111.9255072        |
+| 35.3189836         | -106.5732918        | 35.3187193         | -106.5739353        |
+| 35.3187193         | -106.5739353        | 35.3187193         | -106.5739353        |
+| 39.0527046         | -77.1290344         | 39.052646          | -77.1288239         |
+| 39.0530028         | -77.1265662         | 39.0881931         | -76.9432039         |
+| 39.0881931         | -76.9432039         | 39.0968017         | -76.9362194         |
+| 39.0968017         | -76.9362194         | NULL               | NULL                |
+| 39.2439783         | -76.8270206         | 39.2439783         | -76.8270206         |
+| 39.260963          | -76.8189334         | NULL               | NULL                |
+| 35.315687          | -106.5753712        | 35.315687          | -106.5753712        |
+| 35.30063           | -106.5895383        | NULL               | NULL                |
+| 39.4499299         | -76.7311757         | NULL               | NULL                |
+| 39.4499164         | -76.7311719         | 39.4499164         | -76.7311719         |
+| 0.0                | 0.0                 | 35.0757984         | -106.6165598        |
+| 35.0757984         | -106.6165598        | 35.0757958         | -106.6165529        |
+| 35.0757958         | -106.6165529        | 35.0757958         | -106.6165529        |
+| 35.0757975         | -106.6165629        | 35.0757975         | -106.6165629        |
+| 35.0757656         | -106.6165236        | 35.0757656         | -106.6165236        |
+| 35.0757784         | -106.6165724        | NULL               | NULL                |
+| 35.0757784         | -106.6165724        | 35.0758051         | -106.6165367        |
+| 35.0758292         | -106.616596         | 35.0758016         | -106.6165353        |
+| 29.6934093         | -95.3893827         | 29.6933591         | -95.3893466         |
+| 35.0758098         | -106.6165978        | 35.0757879         | -106.6165702        |
+| 35.0758129         | -106.6165778        | 35.0758048         | -106.6165759        |
+| 35.0757907         | -106.6165785        | 35.075794          | -106.6165714        |
+| 35.0759282         | -106.6166957        | 35.0759282         | -106.6166957        |
+| 35.0759252         | -106.6166963        | 35.0759082         | -106.616698         |
+| 35.0759082         | -106.616698         | 35.0759123         | -106.616773         |
+| 35.0759123         | -106.616773         | NULL               | NULL                |
+| 35.075798          | -106.6166031        | 35.075798          | -106.6166031        |
+| 35.0759224         | -106.6168092        | 35.075962          | -106.6167976        |
+| 35.075819          | -106.6166075        | 35.075819          | -106.6166075        |
+| 35.0757765         | -106.6165584        | 35.07575           | -106.6165452        |
+| 35.0758839         | -106.6167254        | 35.0758956         | -106.6167357        |
+| 35.0758888         | -106.6166902        | 35.0759143         | -106.6166806        |
+| 35.0757942         | -106.6165848        | 35.0757942         | -106.6165848        |
+| 35.0757415         | -106.6165918        | 35.0757415         | -106.6165918        |
+| 35.0757987         | -106.6166266        | 35.0758142         | -106.6166355        |
+| 35.0758048         | -106.6166287        | 35.0758837         | -106.6167775        |
+| 35.0758837         | -106.6167775        | 35.0758893         | -106.6167703        |
+| 35.0757913         | -106.6165953        | 35.0757913         | -106.6165953        |
+| 35.0772199         | -106.6224732        | 35.121117          | -106.623186         |
+| 35.1526196         | -106.6197304        | 35.1525224         | -106.6243904        |
+| 35.1527962         | -106.6252656        | NULL               | NULL                |
+| 35.1523565         | -106.6241526        | 35.1528399         | -106.6251534        |
+| 35.1525917         | -106.6244878        | 35.0758345         | -106.6166294        |
+| 35.0754061         | -106.6148267        | 35.2032763         | -106.6726475        |
+| 35.1059727         | -106.6081763        | NULL               | NULL                |
+| 35.2060927         | -106.6778102        | 35.2175313         | -106.6771895        |
+| 35.2116016         | -106.6933741        | 35.2032726         | -106.6725219        |
+| 35.2027575         | -106.6721533        | 35.0757688         | -106.6165904        |
+| 35.0754717         | -106.6150831        | 35.0858838         | -106.5987105        |
+| 35.0875945         | -106.5995858        | 35.1610094         | -106.6362714        |
+| 35.161901          | -106.630658         | 35.0759001         | -106.6166594        |
+| 35.075949          | -106.6167099        | 35.0758157         | -106.6166192        |
+| 35.0758734         | -106.6165989        | 35.0759142         | -106.6166129        |
+| 35.20324465        | -106.67247528       | 35.20327101        | -106.67244812       |
+| 35.0825727         | -106.6257619        | 35.0825727         | -106.6257619        |
+| 35.08576571        | -106.63801351       | NULL               | NULL                |
+| 35.08576716        | -106.63805776       | 35.13990013        | -106.51730088       |
+| 35.0823032         | -106.6255079        | 35.0822892         | -106.6255029        |
+| 35.0822892         | -106.6255029        | 35.0823121         | -106.6254905        |
+| 35.0823099         | -106.6254942        | 35.0823099         | -106.6254942        |
+| 35.0796472         | -106.6391513        | 35.0758191         | -106.6166059        |
+| 0.0                | 0.0                 | 35.0758029         | -106.6165272        |
+| 35.0757987         | -106.6165489        | 35.0757975         | -106.6165499        |
+| 35.0757707         | -106.6165442        | 35.0756228         | -106.6158435        |
+| 35.0760269         | -106.616449         | 35.126477          | -106.6176672        |
+| 35.0759048         | -106.6165546        | 35.0759048         | -106.6165544        |
+| 35.1199341         | -106.6308033        | 35.1199341         | -106.6308033        |
+| 35.12038132        | -106.62632201       | 35.12037248        | -106.62633718       |
+| 35.0759038         | -106.6165538        | NULL               | NULL                |
+| 35.0759052         | -106.6165545        | 35.075905          | -106.6165545        |
+| 35.075905          | -106.6165545        | 35.0759048         | -106.6165545        |
+| 35.0759038         | -106.6165538        | 35.0759063         | -106.6165525        |
+| 35.0759052         | -106.6165545        | 35.0759048         | -106.6165546        |
+| 35.1199341         | -106.6308033        | 35.0757991         | -106.6165238        |
+| 35.122111          | -106.6336135        | 35.1246165         | -106.6354387        |
+| 35.1225286         | -106.6339177        | 35.122111          | -106.6336135        |
+| 35.075776          | -106.6165267        | 35.0757588         | -106.6165442        |
+| 35.0757976         | -106.6165249        | 35.0758148         | -106.6165687        |
+| 35.0758049         | -106.6165534        | 35.0758028         | -106.616547         |
+| 35.0757794         | -106.6165797        | 35.0758143         | -106.6165926        |
+| 35.0758192         | -106.6166127        | 35.0758131         | -106.6166203        |
+| 35.0757916         | -106.6165515        | 35.0757977         | -106.6165562        |
+| 35.0767803         | -106.609958         | 35.0757357         | -106.6163312        |
+| 35.1230506         | -106.634298         | 35.122111          | -106.6336135        |
+| 35.122111          | -106.6336135        | 35.122111          | -106.6336135        |
+| 35.0756887         | -106.6159916        | 35.075685          | -106.6160208        |
+| 35.0756804         | -106.6160958        | 35.0756629         | -106.6159873        |
+| 35.0758089         | -106.6165577        | NULL               | NULL                |
+| 35.0757719         | -106.6162394        | 35.0757507         | -106.6161884        |
+| 35.075728          | -106.6160608        | 35.0758735         | -106.6165926        |
+| 35.0757999         | -106.6164211        | 35.0757294         | -106.6161077        |
+| 35.075752          | -106.6161581        | 35.0757649         | -106.6161598        |
+| 35.075792          | -106.6164038        | 35.0758056         | -106.6165228        |
+| 35.0757906         | -106.6164791        | 35.0758679         | -106.6166009        |
+| 35.0758317         | -106.6165769        | 35.0758445         | -106.6166036        |
+| 35.0757869         | -106.6164181        | 35.0757678         | -106.6164236        |
+| 35.0758034         | -106.6165897        | 35.07579           | -106.6165975        |
+| 35.0757998         | -106.6165403        | 35.0758021         | -106.6165422        |
+| 35.075802          | -106.6165265        | 35.0757946         | -106.6165252        |
+| 35.0758714         | -106.6167204        | 35.0758815         | -106.6167309        |
+| 35.0757995         | -106.6165401        | 35.0757987         | -106.6165387        |
+| 35.0758216         | -106.6166247        | 35.0758101         | -106.6166048        |
+| 35.0758059         | -106.6165993        | 35.0758201         | -106.6165874        |
+| 35.0758161         | -106.616561         | 35.0758449         | -106.6166098        |
+| 35.07579           | -106.616562         | 35.0758083         | -106.6165623        |
+| 35.0758151         | -106.6165514        | 35.0757989         | -106.6165751        |
+| 35.0758083         | -106.6164967        | 35.0758073         | -106.6165325        |
+| 35.0758157         | -106.6165348        | 35.0757953         | -106.6165252        |
+| 35.0757842         | -106.6165264        | 35.0757975         | -106.6165863        |
+| 35.0757989         | -106.616531         | 35.075794          | -106.6165201        |
+| 35.0757918         | -106.6165577        | 35.0758159         | -106.6166083        |
+| 35.0758007         | -106.6165637        | 35.0757981         | -106.6165534        |
+| 35.075801          | -106.6165996        | 35.0758022         | -106.6165179        |
+| 35.0758045         | -106.6165377        | 35.0757974         | -106.6165505        |
+| 35.0757999         | -106.6165534        | 35.0758064         | -106.6166056        |
+| 35.0757922         | -106.6165776        | 35.075809          | -106.6165646        |
+| 35.0749713         | -106.6166094        | 35.0774855         | -106.5861678        |
+| 35.0775261         | -106.5861283        | 35.076188          | -106.5884283        |
+| 35.0805932         | -106.5881974        | 35.0757198         | -106.5882715        |
+| 35.0748525         | -106.5865918        | 35.075791          | -106.6165442        |
+| 35.0757919         | -106.6165397        | 35.0758115         | -106.6165365        |
+| 35.076527          | -106.615811         | NULL               | NULL                |
+| 35.0757984         | -106.6165387        | 35.0757993         | -106.6165368        |
+| 35.0757981         | -106.6165283        | 35.0757958         | -106.616521         |
+| 35.0757958         | -106.616521         | NULL               | NULL                |
+| 35.0757669         | -106.6165398        | 35.0757894         | -106.6165842        |
+| 35.0757489         | -106.6164693        | 35.0757693         | -106.6165296        |
+| 35.0757955         | -106.6165281        | NULL               | NULL                |
+| 35.2075692         | -106.6762176        | 35.2075692         | -106.6762176        |
+| 35.1873167         | -106.6620958        | 35.075499          | -106.6168619        |
+| 35.0788861         | -106.630848         | 35.2030576         | -106.6710541        |
+| 35.2032693         | -106.6725756        | 35.2032643         | -106.6725705        |
+| 35.2032636         | -106.6725736        | 35.2032332         | -106.6725891        |
+| 35.1861248         | -106.6629176        | 35.0758117         | -106.6165595        |
+| 35.0758023         | -106.6165442        | 35.0758023         | -106.6165442        |
+| 35.0860746         | -106.5989325        | 35.0859635         | -106.5987666        |
+| 35.0859024         | -106.5987054        | 35.0859036         | -106.5987           |
+| 35.0859453         | -106.5987206        | 35.0858988         | -106.5986825        |
+| 35.0859845         | -106.5987258        | 35.0859874         | -106.5987304        |
+| 35.0859244         | -106.5986239        | 35.0859267         | -106.598636         |
+| 35.0859541         | -106.5986972        | 35.0859541         | -106.5986972        |
+| 35.0876849         | -106.6022398        | NULL               | NULL                |
+| 35.0823946         | -106.6261716        | NULL               | NULL                |
+| 35.0823484         | -106.6261896        | 35.0823637         | -106.6261896        |
+| 35.0757977         | -106.6165764        | NULL               | NULL                |
+| 35.0768453         | -106.6166421        | 35.202426          | -106.6724277        |
+| 35.2002876         | -106.6723051        | 35.2031091         | -106.6709528        |
+| 35.0747025         | -106.6165127        | 35.0758976         | -106.6166313        |
+| 35.0758894         | -106.6166138        | NULL               | NULL                |
+| 35.0776415         | -106.6225625        | 35.0777419         | -106.6223986        |
+| 35.0778831         | -106.6222847        | 35.0777338         | -106.6224159        |
+| 35.0883562         | -106.6652219        | 35.0883807         | -106.665217         |
+| 35.088461          | -106.6652075        | 35.0884765         | -106.6651926        |
+| 35.08850211        | -106.66523559       | 35.08858277        | -106.66506174       |
+| 35.08850951        | -106.66532545       | 35.08864786        | -106.66502100       |
+| 35.0883607         | -106.6652926        | 35.0883607         | -106.6652926        |
+| 35.088413          | -106.6652702        | 35.0884059         | -106.66528          |
+| 35.08851676        | -106.66517339       | 35.08855834        | -106.66520272       |
+| 35.08840892        | -106.66559780       | 35.08843684        | -106.66560433       |
+| 35.08825118        | -106.66532887       | 35.08848554        | -106.66553658       |
+| 35.08853348        | -106.66490458       | 35.08847125        | -106.66536123       |
+| 35.08846995        | -106.66505185       | NULL               | NULL                |
+| 35.08843428        | -106.66524363       | NULL               | NULL                |
+| 35.08855444        | -106.66524036       | 35.08849845        | -106.66533683       |
+| 35.08856951        | -106.66523662       | NULL               | NULL                |
+| 35.08848227        | -106.66553909       | 35.08874429        | -106.66500776       |
+| 35.08860653        | -106.66516970       | 35.08835132        | -106.66550786       |
+| 35.0883998         | -106.6652679        | 35.0884169         | -106.665245         |
+| 35.08737616        | -106.66996001       | NULL               | NULL                |
+| 35.08663199        | -106.66733396       | 35.08616813        | -106.66868299       |
+| 35.098052          | -106.6710221        | 35.2032718         | -106.6726292        |
+| 35.10493099        | -106.63402032       | 35.10459578        | -106.59700294       |
+| 35.08849338        | -106.66517372       | NULL               | NULL                |
+| 35.14008301        | -106.51666033       | 35.14003735        | -106.51695452       |
+| 35.1505432         | -106.6994127        | 35.1505432         | -106.6994127        |
+| 35.1481026         | -106.7095669        | 35.1466634         | -106.707417         |
+| null               | null                | 35.0823875         | -106.6252412        |
+| 35.082399          | -106.6252437        | NULL               | NULL                |
+| 35.0823326         | -106.6252783        | 35.0824012         | -106.6252674        |
+| 35.0822949         | -106.6252738        | NULL               | NULL                |
+| 35.0823151         | -106.6252728        | NULL               | NULL                |
+| 35.1481026         | -106.7095669        | 35.1586291         | -106.682041         |
+| 35.07584421        | -106.61678938       | 35.07586378        | -106.61684694       |
+| 35.07603996        | -106.61683663       | 35.07598980        | -106.61683545       |
+| 35.0859572         | -106.6230443        | 35.0859829         | -106.6229895        |
+| 35.0859897         | -106.6229767        | 35.0860546         | -106.6229861        |
+| 35.081578          | -106.6174498        | 35.1451385         | -106.6001422        |
+| 35.1450043         | -106.6002159        | 35.1450218         | -106.6002132        |
+| 35.145081          | -106.6002024        | 35.1450562         | -106.60019          |
+| 35.1414304         | -106.5984496        | NULL               | NULL                |
+| 35.1449718         | -106.6001802        | 35.1449674         | -106.6001889        |
+| 35.1450042         | -106.6001769        | 35.1450277         | -106.6002016        |
+| 35.1414304         | -106.5984496        | 35.0757779         | -106.6165411        |
+| 35.0759116         | -106.6166444        | 35.0758774         | -106.6165921        |
+| 35.0758077         | -106.6165192        | 35.0758105         | -106.6165712        |
+| 35.0757816         | -106.6165057        | 35.0758051         | -106.6165252        |
+| 35.1652293         | -106.6786997        | 35.1474772         | -106.7095047        |
+| 35.0758144         | -106.6165308        | 35.0758861         | -106.6166022        |
+| 35.07580767        | -106.61685120       | 35.07592945        | -106.61676396       |
+| 35.07585376        | -106.61681249       | 35.07585376        | -106.61681249       |
+| 35.07600807        | -106.61688600       | 35.07601134        | -106.61685557       |
+| 35.07587953        | -106.61677594       | 35.07580795        | -106.61682749       |
+| 35.07589487        | -106.61678835       | 35.07588922        | -106.61678910       |
+| 35.07588666        | -106.61679028       | 35.07588666        | -106.61679078       |
+| 35.07588226        | -106.61679095       | 35.07588021        | -106.61678927       |
+| 35.07588021        | -106.61678927       | 35.07588402        | -106.61678206       |
+| 35.07588356        | -106.61677955       | NULL               | NULL                |
+| 35.1474772         | -106.7095047        | 35.1474772         | -106.7095047        |
+| 35.1474772         | -106.7095047        | 35.0841872         | -106.7054528        |
+| 35.1266339         | -106.7010208        | 35.1455812         | -106.7003754        |
+| 35.1455812         | -106.7003754        | NULL               | NULL                |
+| 35.1872324         | -106.6620129        | 35.1726178         | -106.6187336        |
+| 35.1726178         | -106.6187336        | 35.0858011         | -106.5988742        |
+| 35.0874502         | -106.5998888        | 35.2004462         | -106.6697286        |
+| 35.150729          | -106.6991511        | 35.150729          | -106.6991511        |
+| 35.0806193         | -106.6094099        | 35.0806632         | -106.6093963        |
+| 35.1475514         | -106.7094743        | 35.1475514         | -106.7094743        |
+| null               | null                | 35.2033312         | -106.6725129        |
+| 35.2033057         | -106.672541         | 35.2032335         | -106.6725667        |
+| 35.2033087         | -106.6725499        | 35.2033074         | -106.6725417        |
+| 35.2033093         | -106.6725479        | 35.2033067         | -106.6725378        |
+| 35.2033092         | -106.6725377        | 35.2032763         | -106.6725395        |
+| 35.2032655         | -106.67254          | 35.2032391         | -106.6724983        |
+| 35.2033133         | -106.672608         | 35.2033133         | -106.672608         |
+| 35.2033062         | -106.6726112        | 35.203322          | -106.6724387        |
+| 35.203291          | -106.6725233        | 35.2032864         | -106.6725286        |
+| 35.2032905         | -106.6725536        | 35.2032847         | -106.6725424        |
+| 35.2033025         | -106.6725518        | NULL               | NULL                |
+| 35.2032221         | -106.6725313        | 35.2033151         | -106.672565         |
+| 35.2033153         | -106.6726072        | 35.2032221         | -106.6725313        |
+| 35.2032193         | -106.6725169        | 35.2032478         | -106.6725448        |
+| 35.1348208         | -106.6073943        | 35.1351767         | -106.6259211        |
+| 35.1351767         | -106.6259211        | 35.1438447         | -106.6386972        |
+| 35.1979934         | -106.6440825        | 35.1476104         | -106.7094398        |
+| 35.1507299         | -106.6991015        | 35.1507299         | -106.6991015        |
+| 35.0686605         | -106.4983352        | 35.0221475         | -106.3502293        |
+| 35.0221475         | -106.3502293        | 35.0221475         | -106.3502293        |
+| 35.0392192         | -106.3599552        | 35.0247724         | -106.3557472        |
+| 35.07589778        | -106.61680947       | 35.07568960        | -106.61686735       |
+| 35.0757921         | -106.6165726        | 35.0758141         | -106.6165695        |
+| 35.075793          | -106.6165936        | 35.075793          | -106.6165936        |
+| 35.0756396         | -106.6167581        | 35.0757964         | -106.6165482        |
+| 35.07572271        | -106.61693889       | 35.07574576        | -106.61691701       |
+| 35.1137311         | -106.6149478        | 35.1507694         | -106.6990945        |
+| 35.1474366         | -106.709464         | 35.1474366         | -106.709464         |
+| 38.8929852         | -77.0043078         | 38.8930183         | -77.0042903         |
+| 35.0013793         | -106.0278007        | 35.0014258         | -106.0279717        |
+| 33.0016926         | -96.8531793         | 33.001684          | -96.8531994         |
+| 35.07598932        | -106.61683165       | 35.07612622        | -106.61684693       |
+| 35.07595870        | -106.61680159       | 35.07590945        | -106.61685721       |
+| 35.07590873        | -106.61685879       | 35.07591670        | -106.61686072       |
+| 35.07603439        | -106.61653404       | 35.07602358        | -106.61651468       |
+| 35.07774009        | -106.61381276       | 35.07591583        | -106.61691064       |
+| 35.07596138        | -106.61681819       | 35.07596138        | -106.61681819       |
+| 35.08832212        | -106.66512500       | 35.08819307        | -106.66513727       |
+| 35.08815978        | -106.66494791       | 35.08846073        | -106.66506924       |
+| 35.08815153        | -106.66516348       | 35.08818107        | -106.66355782       |
+| 35.08828471        | -106.66549232       | 35.08844631        | -106.66515889       |
+| 35.08844229        | -106.66548603       | 35.08830650        | -106.66554462       |
+| 35.07599968        | -106.61683927       | 35.07607370        | -106.61678567       |
+| 35.07594173        | -106.61681199       | 35.07591797        | -106.61682908       |
+| 35.20355658        | -106.67223858       | 35.20356806        | -106.67226582       |
+| 35.08822274        | -106.66510285       | NULL               | NULL                |
+| 35.13870056        | -106.64191889       | 35.14608838        | -106.58104940       |
+| 35.14609914        | -106.58099854       | NULL               | NULL                |
+| 35.11167908        | -106.61961365       | 35.11421153        | -106.61468977       |
+| 35.15139988        | -106.58679316       | 35.15108232        | -106.61873520       |
+| 35.07586390        | -106.61684727       | 35.07586390        | -106.61684727       |
+| 26.33656961        | -80.08079295        | 26.33658045        | -80.08079259        |
+| 26.33658883        | -80.08079115        | NULL               | NULL                |
+| 35.07565192        | -106.61689987       | 35.07591062        | -106.61689795       |
+| 35.07592694        | -106.61688255       | 35.07593703        | -106.61688767       |
+| 35.07588067        | -106.61689999       | 35.07634238        | -106.61694844       |
+| 35.07581335        | -106.61708284       | 35.07594781        | -106.61696663       |
+| 35.19644998        | -106.59347584       | 35.19643708        | -106.59356888       |
+| 35.19643745        | -106.59357777       | 35.19643745        | -106.59357777       |
+| 26.42741663        | -80.07394122        | 26.42737485        | -80.07407256        |
+| 35.17417101        | -106.55702747       | 35.19814983        | -106.66085955       |
+| 35.1987838         | -106.6665065        | 35.1987838         | -106.6665065        |
+| 35.0899092         | -106.6573466        | 35.2044989         | -106.6624294        |
+| 35.2044989         | -106.6624294        | NULL               | NULL                |
+| 35.205505          | -106.673327         | 35.205505          | -106.673327         |
+| 26.2968495         | -80.1226495         | 26.2968495         | -80.1226495         |
+| 43.592821159440646 | -116.24570857744312 | 43.592821159440646 | -116.24570857744312 |
+| 43.5929212         | -116.2453849        | 43.5929351         | -116.2453912        |
+| 43.592837666161564 | -116.245663483124   | 43.592837666161564 | -116.245663483124   |
+| 43.592837666161564 | -116.245663483124   | 43.6007411         | -116.2198992        |
+| 43.6007411         | -116.2198992        | 43.6095032         | -116.1974697        |
+| 41.8907794         | -87.6278893         | NULL               | NULL                |
+| 34.0472274         | -118.4635709        | 34.0471654         | -118.4636323        |
+| 34.0467653         | -118.462993         | 34.0472422         | -118.4635698        |
+| 34.0198841         | -118.480521         | NULL               | NULL                |
+| 34.0336814         | -118.478747         | NULL               | NULL                |
+| 35.0818946         | -106.6230792        | 35.0818946         | -106.6230792        |
+| 35.0864035         | -106.6233887        | 35.0864275         | -106.6234093        |
+| 35.083124          | -106.6251978        | 35.083126          | -106.6252987        |
+| 35.2032246         | -106.6723733        | 35.2032779         | -106.67245          |
+| 35.2032877         | -106.6725005        | 35.2032502         | -106.672655         |
+| 35.2033508         | -106.6725819        | 35.2032812         | -106.6725577        |
+| 35.2002923         | -106.678581         | 35.0756056         | -106.6165001        |
+| 35.07581733        | -106.61677977       | NULL               | NULL                |
+| 35.2022949         | -106.6597118        | 35.189589          | -106.6592488        |
+| 0.0                | 0.0                 | 32.845671          | -96.8512051         |
+| 29.4289956         | -98.4929411         | 29.4289956         | -98.4929411         |
+| 29.4289956         | -98.4929411         | 29.4290087         | -98.4929753         |
+| 29.4290087         | -98.4929753         | 29.4290611         | -98.4929945         |
+| 29.4290165         | -98.4929709         | 29.4290353         | -98.4929951         |
+| 29.4290353         | -98.4929951         | NULL               | NULL                |
+| 29.4290925         | -98.4930415         | 29.4290326         | -98.4929856         |
+| 29.4289821         | -98.4929452         | 29.4289821         | -98.4929452         |
+| 29.4289818         | -98.4929129         | 29.4289818         | -98.4929129         |
+| 29.4289832         | -98.4929099         | 29.429003          | -98.492922          |
+| 29.429003          | -98.492922          | 29.4290147         | -98.4929394         |
+| 29.4290147         | -98.4929394         | 29.4290147         | -98.4929394         |
+| 29.4289987         | -98.4929222         | 29.4289987         | -98.4929222         |
+| 29.4289904         | -98.492905          | 29.4289995         | -98.4929121         |
+| 29.4289965         | -98.4928811         | 29.428957          | -98.4928866         |
+| 29.4290098         | -98.4929213         | 29.4290098         | -98.4929213         |
+| 29.4290087         | -98.4929134         | 29.428994          | -98.4929097         |
+| 29.428994          | -98.4929097         | 29.428994          | -98.4929097         |
+| 29.4289891         | -98.492915          | 29.4290013         | -98.492927          |
+| 29.4289959         | -98.4929054         | 29.4289701         | -98.4928898         |
+| 29.4289915         | -98.4928915         | 29.4289917         | -98.4928805         |
+| 29.4289834         | -98.4929122         | 29.4290188         | -98.4929643         |
+| 29.4290284         | -98.4929498         | 29.4291008         | -98.4930151         |
+| 29.4291008         | -98.4930151         | 29.4290345         | -98.4929544         |
+| 29.4289995         | -98.4929033         | 29.4289995         | -98.4929033         |
+| 29.4289891         | -98.4929094         | 29.4289891         | -98.4929094         |
+| 29.4289882         | -98.4929107         | 29.4289948         | -98.4928999         |
+| 29.4289772         | -98.4929019         | 29.4289772         | -98.4929019         |
+| 29.4289995         | -98.4929253         | 29.4289746         | -98.4929013         |
+| 29.428976          | -98.4929065         | 29.4290107         | -98.492942          |
+| 29.4290098         | -98.4929255         | 29.4289955         | -98.4929244         |
+| 29.4289604         | -98.4928965         | 29.4289721         | -98.4928887         |
+| 29.4290096         | -98.4929493         | 29.4290066         | -98.4929415         |
+| 29.4290066         | -98.4929415         | 29.4290059         | -98.4929206         |
+| 29.4290097         | -98.4929625         | 29.4290097         | -98.4929625         |
+| 29.4290097         | -98.4929625         | 29.428999          | -98.4929089         |
+| 29.4290026         | -98.4929081         | 29.4290209         | -98.4929227         |
+| 29.4289958         | -98.4929165         | 29.4289807         | -98.4929111         |
+| 29.428998          | -98.4929428         | 29.4290008         | -98.4929252         |
+| 29.4289856         | -98.4929188         | 29.4290225         | -98.4929497         |
+| 29.4289746         | -98.4930004         | 29.4289746         | -98.4930004         |
+| 29.4290239         | -98.4929611         | 29.4290349         | -98.4930616         |
+| 29.4290051         | -98.4929511         | 29.4290193         | -98.493031          |
+| 29.42906           | -98.4930167         | 29.4290815         | -98.4930212         |
+| 29.4290773         | -98.4930178         | 29.4291164         | -98.4930626         |
+| 29.4289962         | -98.4929333         | 29.4289962         | -98.4929333         |
+| 29.4289962         | -98.4929333         | 29.4289822         | -98.4929292         |
+| 29.4289976         | -98.492946          | 29.4290371         | -98.4929458         |
+| 29.42899           | -98.4929398         | 29.42899           | -98.4929398         |
+| 29.4289779         | -98.4929302         | 29.4289779         | -98.4929302         |
+| 29.4289779         | -98.4929302         | 29.4289575         | -98.4929277         |
+| 29.4289575         | -98.4929277         | 29.4289575         | -98.4929277         |
+| 29.4289924         | -98.4929528         | 29.4289924         | -98.4929528         |
+| 29.4289476         | -98.4929209         | 29.4289918         | -98.492934          |
+| 29.4290226         | -98.4929574         | 29.4289844         | -98.4929501         |
+| 29.4290238         | -98.4929262         | 29.4290238         | -98.4929262         |
+| 29.428988          | -98.4929553         | 29.428958          | -98.4929459         |
+| 29.429019          | -98.492944          | 29.429019          | -98.492944          |
+| 29.4289777         | -98.4929483         | 29.4289759         | -98.4929472         |
+| 29.4289612         | -98.4929643         | 29.4289612         | -98.4929643         |
+| 29.4289866         | -98.4929169         | 29.4289715         | -98.4929189         |
+| 29.428964          | -98.4929258         | 29.4289554         | -98.4929321         |
+| 29.4289784         | -98.4929419         | 29.428958          | -98.492928          |
+| 29.4289119         | -98.4928943         | 29.4289607         | -98.4929164         |
+| 29.428958          | -98.492928          | 29.4289929         | -98.4929472         |
+| 29.4293773         | -98.4934119         | 29.4293244         | -98.4933417         |
+| 29.4290071         | -98.4929545         | 29.4289662         | -98.492924          |
+| 29.4289779         | -98.4929199         | 29.4289779         | -98.4929199         |
+| 29.4290206         | -98.4929602         | 29.4289586         | -98.4929384         |
+| 29.4289568         | -98.4929213         | 29.4290012         | -98.492951          |
+| 29.4289353         | -98.4929193         | 29.4290204         | -98.492959          |
+| 29.4289687         | -98.4929447         | 29.428957          | -98.4929577         |
+| 29.4289777         | -98.4929261         | 29.4289805         | -98.4929165         |
+| 29.4289826         | -98.4929458         | 29.4289785         | -98.4928928         |
+| 29.4289412         | -98.492898          | 29.4290036         | -98.4929443         |
+| 29.4290036         | -98.4929443         | 29.4290036         | -98.4929443         |
+| 29.4290034         | -98.4929462         | 29.4290034         | -98.4929462         |
+| 29.4289536         | -98.4929325         | 29.4289808         | -98.4929355         |
+| 29.4289997         | -98.4929474         | 29.4290299         | -98.4929143         |
+| 29.4290299         | -98.4929143         | 29.4289899         | -98.4929547         |
+| 29.4289959         | -98.4929416         | 29.4289959         | -98.4929416         |
+| 29.4289959         | -98.4929416         | 29.4289712         | -98.4929207         |
+| 29.4289712         | -98.4929207         | 29.4289924         | -98.492942          |
+| 29.429009          | -98.4929512         | 29.4289484         | -98.4929413         |
+| 29.4290097         | -98.4929375         | 29.4289688         | -98.492937          |
+| 29.428969          | -98.4929253         | 29.4289596         | -98.492936          |
+| 29.4290105         | -98.4929613         | 29.4289639         | -98.4929483         |
+| 29.4289545         | -98.49293           | 29.4289545         | -98.49293           |
+| 29.428991          | -98.4929444         | 29.428991          | -98.4929444         |
+| 29.428991          | -98.4929444         | 29.4289689         | -98.492937          |
+| 29.4289689         | -98.492937          | 29.4289598         | -98.4929441         |
+| 29.4290113         | -98.4929678         | 29.4290022         | -98.4929537         |
+| 29.4290022         | -98.4929537         | 29.4289636         | -98.4929609         |
+| 29.429305          | -98.4933343         | 29.429305          | -98.4933343         |
+| 29.4289653         | -98.492936          | 29.4289653         | -98.492936          |
+| 29.4289768         | -98.4929559         | 29.4289768         | -98.4929559         |
+| 29.4289569         | -98.4929251         | 29.4289909         | -98.4929245         |
+| 29.4289962         | -98.4929389         | 29.4289962         | -98.4929389         |
+| 29.4289902         | -98.4929299         | 29.4290016         | -98.4929401         |
+| 29.429029          | -98.4929596         | 29.4290186         | -98.492946          |
+| 29.4290276         | -98.4929502         | 29.4290276         | -98.4929502         |
+| 29.4290398         | -98.4929854         | 29.4289929         | -98.4929235         |
+| 29.4289929         | -98.4929235         | 29.4289929         | -98.4929235         |
+| 29.4289848         | -98.4929339         | 29.4289848         | -98.4929339         |
+| 29.4289422         | -98.4929455         | 29.4289399         | -98.4929051         |
+| 29.4289399         | -98.4929051         | 29.4289399         | -98.4929051         |
+| 29.4289711         | -98.49293           | 29.4289778         | -98.4929237         |
+| 29.4289778         | -98.4929237         | 29.4289778         | -98.4929237         |
+| 29.4289978         | -98.4929558         | 29.4290146         | -98.4929784         |
+| 29.4289836         | -98.4929327         | 29.4290021         | -98.4929471         |
+| 29.4290021         | -98.4929471         | 29.4290208         | -98.4929666         |
+| 29.4289875         | -98.4929478         | 29.4290162         | -98.4929521         |
+| null               | null                | 29.4289862         | -98.4929443         |
+| 29.429014          | -98.4929655         | 29.429014          | -98.4929655         |
+| null               | null                | 29.4290058         | -98.4929494         |
+| 29.4289755         | -98.4929258         | 29.4289924         | -98.4929494         |
+| 29.4290057         | -98.4929383         | 29.4289907         | -98.4929416         |
+| 29.4290109         | -98.4929392         | 29.4289862         | -98.4929354         |
+| 29.429033          | -98.4929712         | 29.4289973         | -98.4929554         |
+| 29.4289793         | -98.4929437         | 29.4290445         | -98.4929493         |
+| 29.4290473         | -98.4929562         | 29.4290199         | -98.4929677         |
+| 29.4290395         | -98.4929684         | 29.4290322         | -98.4929903         |
+| 29.4290515         | -98.492972          | 29.4290244         | -98.4929646         |
+| 29.4289298         | -98.4928752         | 29.4289454         | -98.4928743         |
+| 29.5273335         | -98.4704058         | 29.5273335         | -98.4704058         |
+| 35.2033379         | -106.6725293        | 35.2033716         | -106.6726025        |
+| 35.0757593         | -106.616465         | 35.0757593         | -106.616465         |
+| 35.1316429         | -106.4890493        | 35.1307405         | -106.4921619        |
+| 35.0874998         | -106.5954833        | 35.0872414         | -106.5864289        |
+| 35.0872414         | -106.5864289        | 35.0872414         | -106.5864289        |
+| 35.0757981         | -106.6164731        | 35.0757873         | -106.6164511        |
+| 35.0757707         | -106.616473         | 35.0757707         | -106.616473         |
+| 35.07592770        | -106.61682753       | 35.07574850        | -106.61692299       |
+| 35.0757573         | -106.6164668        | 35.0757509         | -106.6164896        |
+| 35.2033454         | -106.672498         | 35.2033201         | -106.6725207        |
+| 35.2033558         | -106.6725298        | 35.2033539         | -106.6725247        |
+| 35.203362          | -106.6725431        | 35.2032954         | -106.6724676        |
+| 35.2032954         | -106.6724676        | 35.2033572         | -106.672543         |
+| 35.2033587         | -106.6725348        | 35.2033587         | -106.6725348        |
+| 35.203357          | -106.6725337        | 35.2033732         | -106.6725434        |
+| 35.2033964         | -106.6725896        | 35.2033964         | -106.6725896        |
+| 35.203396          | -106.6725887        | 35.203396          | -106.6725887        |
+| 35.2033601         | -106.6725429        | 35.2034045         | -106.6725893        |
+| 35.2033964         | -106.6725887        | 35.2033568         | -106.6725334        |
+| 35.2033453         | -106.6725509        | 35.2033793         | -106.6725937        |
+| 35.2033276         | -106.6725306        | 35.2033922         | -106.6725887        |
+| 35.2033568         | -106.6725387        | 35.2033568         | -106.6725387        |
+| 35.2033921         | -106.6725877        | 35.2033548         | -106.6725398        |
+| 35.203359          | -106.6725394        | 35.203359          | -106.6725394        |
+| 35.2033891         | -106.6725878        | 35.203359          | -106.6725366        |
+| 35.2033575         | -106.6725383        | 35.2033579         | -106.672541         |
+| 35.2033601         | -106.6725367        | 35.2033543         | -106.6725359        |
+| 35.2033596         | -106.672539         | 35.2033795         | -106.6725937        |
+| 35.2033581         | -106.6725414        | 35.2033581         | -106.6725414        |
+| 35.2033581         | -106.6725414        | NULL               | NULL                |
+| 35.2033582         | -106.6725397        | 35.2033576         | -106.6725404        |
+| 35.2032345         | -106.6724263        | 35.2032937         | -106.6725004        |
+| 35.2032664         | -106.6724095        | 35.2033241         | -106.6724262        |
+| 35.2032766         | -106.6724845        | 35.2032766         | -106.6724845        |
+| 35.2033078         | -106.6725069        | 35.2032732         | -106.6724781        |
+| 35.2033557         | -106.6725325        | 35.2033572         | -106.6725349        |
+| 35.2033046         | -106.672504         | 35.2033046         | -106.672504         |
+| 35.2033098         | -106.6725062        | 35.2033098         | -106.6725062        |
+| 35.2033098         | -106.6725062        | 35.2032706         | -106.6724775        |
+| 35.2032084         | -106.6724507        | 35.2032469         | -106.6723848        |
+| 35.2032615         | -106.6724631        | 35.2032615         | -106.6724631        |
+| 35.2032754         | -106.672477         | 35.2032754         | -106.672477         |
+| 35.2003056         | -106.6785976        | 35.1401174         | -106.5169292        |
+| 35.1401174         | -106.5169292        | 35.1401174         | -106.5169292        |
+| 35.1352981         | -106.5177141        | 35.1330054         | -106.5309922        |
+| 35.1307435         | -106.5156113        | 35.1307435         | -106.5156113        |
+| 35.1540727         | -106.5243672        | 35.2032377         | -106.6723855        |
+| 35.2033451         | -106.672509         | 35.2033302         | -106.6725332        |
+| 35.2033603         | -106.6725325        | 35.2033538         | -106.6725251        |
+| 35.0757845         | -106.6164516        | 35.0757801         | -106.6164759        |
+| 35.0758045         | -106.6164617        | 35.0758149         | -106.6165497        |
+| 35.0758072         | -106.616482         | 35.0758072         | -106.616482         |
+| 35.2033303         | -106.6725458        | 35.2033234         | -106.6724583        |
+| 35.2033561         | -106.6725405        | 35.2033561         | -106.6725405        |
+| 35.0758191         | -106.6164737        | 35.0758191         | -106.6164737        |
+| 35.0757851         | -106.6165142        | 35.0758256         | -106.6164806        |
+| 35.0757698         | -106.6164724        | 35.0757829         | -106.6164457        |
+| 35.07584014        | -106.61692916       | 35.07584014        | -106.61692916       |
+| 35.07586327        | -106.61687971       | 35.07587404        | -106.61688440       |
+| 35.07593955        | -106.61682397       | 35.07593687        | -106.61686823       |
+| 35.07585607        | -106.61686085       | 35.07585967        | -106.61686060       |
+| 35.07586897        | -106.61689647       | 35.07588576        | -106.61691405       |
+| 34.0506236         | -107.0577106        | NULL               | NULL                |
+| 35.2675786         | -106.6183729        | 39.2674792         | -106.6183653        |
+| 35.0675765         | -106.5494001        | 35.0675787         | -106.5493998        |
+| 35.26746013        | -106.61850781       | 35.26746013        | -106.61850781       |
+| 35.14008603        | -106.51732868       | 35.13993031        | -106.51743505       |
+| 35.14034255        | -106.51713298       | 35.14003743        | -106.51726699       |
+| 35.0676297         | -106.5493055        | 35.0676555         | -106.5493634        |
+| 35.13034221        | -106.53075598       | 35.13049417        | -106.52501464       |
+| 35.14021524        | -106.51687594       | 35.14008667        | -106.51704462       |
+| 35.14017481        | -106.51704412       | 35.14014753        | -106.51720086       |
+| 35.14008227        | -106.51694630       | 35.20328371        | -106.67237587       |
+| 35.14021197        | -106.51674304       | 35.10927798        | -106.55060551       |
+| 35.10215329        | -106.55074459       | 35.14012186        | -106.51698206       |
+| 35.20327386        | -106.67232047       | 35.20335525        | -106.67233011       |
+| 35.0676186         | -106.5493273        | 35.0675678         | -106.5493756        |
+| 35.0675678         | -106.5493756        | 35.0675678         | -106.5493756        |
+| 35.0805503         | -106.6209805        | 35.0805503         | -106.6209805        |
+| 35.0805529         | -106.6210402        | 35.0805328         | -106.6209789        |
+| 35.0805468         | -106.6210022        | 35.0805595         | -106.6210867        |
+| 35.268293          | -106.6182684        | 35.2675435         | -106.618293         |
+| 35.2436815         | -106.5683339        | 35.2675425         | -106.6182924        |
+| 35.2033158         | -106.672449         | 35.2033158         | -106.672449         |
+| 35.2033001         | -106.6725095        | 35.2033001         | -106.6725095        |
+| 35.2033519         | -106.672538         | 35.2033519         | -106.672538         |
+| 35.2033145         | -106.6726635        | 35.20337           | -106.6725601        |
+| 35.200823          | -106.6699053        | NULL               | NULL                |
+| 35.2220244         | -106.3310976        | 35.2220244         | -106.3310976        |
+| 35.0058044         | -105.9032038        | 35.0316722         | -106.6308758        |
+| 33.19235613        | -117.30035601       | 33.20634347        | -117.28705687       |
+| 35.2220255         | -106.3310976        | NULL               | NULL                |
+| 35.075753          | -106.616476         | 35.0757892         | -106.6164815        |
+| 35.0757892         | -106.6164815        | 35.0757704         | -106.6165024        |
+| 35.07579869        | -106.61677863       | 35.07579869        | -106.61677863       |
+| 35.07585368        | -106.61693897       | NULL               | NULL                |
+| 35.07592916        | -106.61681810       | 35.07592916        | -106.61681810       |
+| 35.1402087         | -106.5168594        | 35.1402087         | -106.5168594        |
+| 35.0927059         | -106.6464855        | 35.0926401         | -106.6465073        |
+| 35.13072363        | -106.53216348       | 35.13004516        | -106.54721485       |
+| 35.14680322        | -106.67965011       | NULL               | NULL                |
+| 35.10908193        | -106.57818130       | 35.14053445        | -106.51685835       |
+| 35.2034178         | -106.6726176        | 35.2033813         | -106.6725964        |
+| 35.0758228         | -106.6170192        | 35.0758228         | -106.6170192        |
+| 35.2008216         | -106.6671362        | NULL               | NULL                |
+| 35.2033834         | -106.6725785        | 35.2033815         | -106.6725685        |
+| 35.2033815         | -106.6725685        | 35.2033994         | -106.6726454        |
+| 35.2035402         | -106.672469         | NULL               | NULL                |
+| 35.2035402         | -106.672469         | 35.2035402         | -106.672469         |
+| 35.203308          | -106.6724301        | 35.2033175         | -106.6724883        |
+| 35.0857299         | -106.5955371        | 35.0857299         | -106.5955371        |
+| 35.1320555         | -106.5165465        | NULL               | NULL                |
+| 35.2033552         | -106.6725471        | 35.2033546         | -106.6725445        |
+| 35.203385          | -106.6725988        | 35.2033005         | -106.6725067        |
+| 35.2033005         | -106.6725067        | 35.2033005         | -106.6725067        |
+| 35.2033891         | -106.6726084        | 35.2035402         | -106.672469         |
+| 35.116887          | -106.7029632        | 35.1169223         | -106.7030092        |
+| 35.1169223         | -106.7030092        | NULL               | NULL                |
+| 35.1169223         | -106.7030092        | 35.1169223         | -106.7030092        |
+| 35.0857585         | -106.5955725        | 35.085776          | -106.5955803        |
+| 40.7224335         | -111.8678975        | NULL               | NULL                |
+| 40.7224335         | -111.8678975        | 40.7224335         | -111.8678975        |
+| 35.0022703         | -106.0284617        | 35.005362          | -106.0452357        |
+| 35.005362          | -106.0452357        | 35.005362          | -106.0452357        |
+| 35.0061059         | -106.041963         | 35.0061059         | -106.041963         |
+| 35.0034391         | -106.0284298        | NULL               | NULL                |
+| 45.2604248         | -122.7037798        | NULL               | NULL                |
+| 45.2604248         | -122.7037798        | 45.2604248         | -122.7037798        |
+| 45.2603428         | -122.70365598       | 45.26034196        | -122.7036581        |
+| 45.26034014        | -122.70365674       | 45.26033709        | -122.7036578        |
+| 45.2604053         | -122.7033316        | 45.2604248         | -122.7037798        |
+| 45.26030891        | -122.70357205       | 45.26031158        | -122.70357094       |
+| 45.26012633        | -122.70369272       | NULL               | NULL                |
+| 45.26012633        | -122.70369272       | 45.26023563        | -122.70369852       |
+| 40.7224335         | -111.8678975        | 40.722415          | -111.8679907        |
+| 40.722415          | -111.8679907        | 40.722415          | -111.8679907        |
+| 40.7224335         | -111.8678975        | 40.7223865         | -111.8679441        |
+| 40.722415          | -111.8679907        | NULL               | NULL                |
+| 40.722415          | -111.8679907        | 40.7224335         | -111.8678975        |
+| 40.725309          | -111.8946733        | 40.725309          | -111.8946733        |
+| 38.5722026         | -94.8689735         | NULL               | NULL                |
+| 39.6034052         | -95.0751178         | 38.8213346         | -94.7402254         |
+| 38.8213346         | -94.7402254         | 38.8213343         | -94.7402287         |
+| 38.8213327         | -94.7402262         | NULL               | NULL                |
+| 35.0816983         | -106.6126906        | 35.0816983         | -106.6126906        |
+| 35.0815888         | -106.6128748        | 35.0815888         | -106.6128748        |
+| 35.0816983         | -106.6126906        | NULL               | NULL                |
+| 35.0815888         | -106.6128748        | 35.0816983         | -106.6126906        |
+| 35.0816854         | -106.6127827        | 35.0816983         | -106.6126906        |
+| 35.0815888         | -106.6128748        | NULL               | NULL                |
+| 35.0816983         | -106.6126906        | 35.0815888         | -106.6128748        |
+| 35.08132158        | -106.61273666       | 35.08129831        | -106.61270217       |
+| 35.1401484         | -106.5170246        | 35.1401484         | -106.5170246        |
+| 35.1297327         | -106.5317538        | NULL               | NULL                |
+| 35.1297327         | -106.5317538        | 35.1297327         | -106.5317538        |
+| 35.2032503         | -106.6725385        | NULL               | NULL                |
+| 35.0824096         | -106.6254923        | NULL               | NULL                |
+| 35.0823389         | -106.6254002        | 35.0823389         | -106.6254002        |
+| 35.0823036         | -106.6253542        | NULL               | NULL                |
+| 35.0823389         | -106.6254002        | 35.0823036         | -106.6253542        |
+| 35.0823036         | -106.6253542        | 35.0823036         | -106.6253542        |
+| 35.0823036         | -106.6253542        | 35.0824096         | -106.6254923        |
+| 35.0823519         | -106.6253081        | NULL               | NULL                |
+| 35.0823389         | -106.6254002        | 35.0822553         | -106.6254002        |
+| 35.0822553         | -106.6254002        | NULL               | NULL                |
+| 35.0822553         | -106.6254002        | 35.0823389         | -106.6254002        |
+| 35.0823389         | -106.6254002        | 35.0824096         | -106.6254923        |
+| 35.0823036         | -106.6253542        | 35.0823389         | -106.6254002        |
+| 35.0824225         | -106.6254002        | 35.0824225         | -106.6254002        |
+| 35.0798792         | -106.6107566        | 35.0798792         | -106.6107566        |
+| 35.0757262         | -106.6171113        | 35.0756426         | -106.6171113        |
+| 35.0757392         | -106.6170192        | 35.0756426         | -106.6171113        |
+| 35.0756426         | -106.6171113        | 35.0756426         | -106.6171113        |
+| 35.2034567         | -106.672469         | 35.2033311         | -106.6724804        |
+| 35.0759064         | -106.6170192        | 35.0759064         | -106.6170192        |
+| 35.07587031        | -106.61686462       | 35.07586407        | -106.61674191       |
+| 35.0759064         | -106.6170192        | NULL               | NULL                |
+| 35.07586969        | -106.61690092       | 35.07586969        | -106.61690092       |
+| 35.07584341        | -106.61688239       | 35.07584408        | -106.61688742       |
+| 35.07584408        | -106.61688742       | 35.07585284        | -106.61687183       |
+| 35.07585284        | -106.61687183       | 35.07585284        | -106.61687183       |
+| 35.0759064         | -106.6170192        | 35.0757133         | -106.6172034        |
+| 35.0757133         | -106.6172034        | 35.0757133         | -106.6172034        |
+| 35.07590816        | -106.61682582       | 35.07593917        | -106.61679673       |
+| 35.07586076        | -106.61684375       | 35.07590108        | -106.61679187       |
+| 35.2023494         | -106.6702581        | 35.0827391         | -106.6361157        |
+| 35.0821846         | -106.6253081        | 35.0821846         | -106.6253081        |
+| 35.0821717         | -106.6254002        | 35.0821717         | -106.6254002        |
+| 35.216052          | -106.6985408        | NULL               | NULL                |
+| 33.5724984         | -84.5420402         | 33.5725078         | -84.5412623         |
+| 33.5725078         | -84.5412623         | 33.5721655         | -84.5433915         |
+| 33.5721655         | -84.5433915         | 33.5842144         | -84.5279121         |
+| 33.5855006         | -84.5274206         | 33.6298531         | -84.5626326         |
+| 33.5858287         | -84.5271042         | 33.5840492         | -84.5116831         |
+| 33.5840492         | -84.5116831         | 33.6238857         | -84.4730869         |
+| 33.6245457         | -84.4678912         | 33.5879873         | -84.4636574         |
+| 35.086074          | -106.6235122        | NULL               | NULL                |
+| 33.5883418         | -84.4696433         | 33.582169          | -84.442743          |
+| 33.5839384         | -84.4433172         | 33.4378332         | -84.0668306         |
+| 33.4373455         | -84.0657575         | 33.6537355         | -84.4497539         |
+| 33.6590186         | -84.4481568         | 33.6375763         | -84.4573511         |
+| 33.6312407         | -84.4704242         | 33.6042722         | -84.5142311         |
+| 33.6043774         | -84.5144758         | NULL               | NULL                |
+| 42.4509395         | -83.1219236         | 42.4509395         | -83.1219236         |
+| 35.15191209        | -106.59674543       | 35.15195410        | -106.59674937       |
+| 42.4566472         | -83.1310993         | 42.4463535         | -83.1582418         |
+| 35.15191184        | -106.59670157       | 35.15188608        | -106.59673134       |
+| 35.1893533         | -106.6595156        | 35.1415727         | -106.5944846        |
+| 35.1415727         | -106.5944846        | 35.099979          | -106.6322921        |
+| 35.099979          | -106.6322921        | 35.0924354         | -106.6358796        |
+| 35.0956934         | -106.6329987        | 35.0956934         | -106.6329987        |
+| 35.0956934         | -106.6329987        | 35.0907259         | -106.6260027        |
+| 35.0907259         | -106.6260027        | 35.0953522         | -106.6149277        |
+| 35.0947529         | -106.6149931        | 35.0758935         | -106.6171113        |
+| 35.0758935         | -106.6171113        | 35.0758935         | -106.6171113        |
+| 35.02652035        | -107.39439972       | 35.02867073        | -107.45481438       |
+| 35.02992022        | -107.45925042       | 35.03303749        | -107.47015754       |
+| 35.08172855        | -106.61271357       | 35.08177138        | -106.61265221       |
+| 35.18141704        | -106.66776509       | 35.18138548        | -106.66786373       |
+| 35.18126755        | -106.66791931       | 35.17690711        | -106.67235409       |
+| 35.08173455        | -106.61264249       | 35.08170211        | -106.61257183       |
+| 45.4119917         | -122.5341705        | 45.4119838         | -122.5341512        |
+| 33.64305345        | -84.42929294        | 33.64301657        | -84.42932663        |
+| 45.4820135         | -122.5653777        | 45.4820135         | -122.5653777        |
+| 45.4820135         | -122.5653777        | NULL               | NULL                |
+| 42.4464786         | -83.1603357         | NULL               | NULL                |
+| 35.14020042        | -106.51704856       | 35.14010025        | -106.51703783       |
+| 35.14016328        | -106.51707681       | 35.14015893        | -106.51707748       |
+| 33.48206067        | -81.98537932        | 33.48206067        | -81.98537932        |
+| 35.10157743        | -106.60309322       | 35.08847301        | -106.66539559       |
+| 35.2034602         | -106.6725223        | 35.2044326         | -106.6717311        |
+| 44.6012328         | -92.025943          | NULL               | NULL                |
+| 35.203516          | -106.6725585        | 35.2035462         | -106.6725964        |
+| 35.2035153         | -106.6725576        | 35.2035153         | -106.6725576        |
+| 35.203492          | -106.672515         | 35.203492          | -106.672515         |
+| 35.203492          | -106.672515         | NULL               | NULL                |
+| 35.2034567         | -106.672469         | 35.2035402         | -106.672469         |
+| 35.2035402         | -106.672469         | 35.2035166         | -106.6725421        |
+| 35.0871743         | -106.5974954        | NULL               | NULL                |
+| 35.0872097         | -106.5975414        | NULL               | NULL                |
+| 35.0873135         | -106.5976116        | 35.0873215         | -106.5975558        |
+| 35.0873215         | -106.5975558        | 35.0871743         | -106.5974954        |
+| 35.0873409         | -106.5975513        | NULL               | NULL                |
+| 35.0805349         | -106.6209794        | 35.0805478         | -106.6208873        |
+| 35.0805349         | -106.6209794        | 35.0805349         | -106.6209794        |
+| 35.0805478         | -106.6208873        | 35.0805478         | -106.6208873        |
+| 35.0804642         | -106.6208873        | 35.0804642         | -106.6208873        |
+| 35.0805478         | -106.6208873        | 35.0804513         | -106.6209794        |
+| 35.0804642         | -106.6208873        | 35.0805349         | -106.6209794        |
+| 35.0805478         | -106.6208873        | NULL               | NULL                |
+| 35.0805349         | -106.6209794        | NULL               | NULL                |
+| 35.0805478         | -106.6208873        | 35.0805349         | -106.6209794        |
+| 35.0805478         | -106.6208873        | 35.0804642         | -106.6208873        |
+| 35.0821382         | -106.6229596        | 35.2069542         | -106.6577301        |
+| 35.14722391        | -106.59453264       | 35.14719834        | -106.59431127       |
+| 35.14726707        | -106.59442233       | 35.14727981        | -106.59452425       |
+| 35.08472743        | -106.65494805       | 35.08472743        | -106.65494805       |
+| 35.0757745         | -106.6170652        | 35.0757745         | -106.6170652        |
+| 35.0758935         | -106.6171113        | 35.0757745         | -106.6170652        |
+| 35.0758935         | -106.6171113        | NULL               | NULL                |
+| 35.0757745         | -106.6170652        | 35.0758935         | -106.6171113        |
+| 35.2034788         | -106.6725293        | 35.2034788         | -106.6725293        |
+| 35.2034788         | -106.6725293        | 35.2034833         | -106.6725287        |
+| 35.2035196         | -106.6725611        | 35.2035196         | -106.6725611        |
+| 35.2035196         | -106.6725611        | 35.2035093         | -106.6725229        |
+| 40.83645935        | -73.00352481        | 40.83645935        | -73.00352481        |
+| 40.83707524        | -73.00409063        | 40.83707524        | -73.00409063        |
+| 40.83707524        | -73.00409063        | NULL               | NULL                |
+| 40.81850660        | -73.10539163        | 40.81849754        | -73.10536522        |
+| 40.81849754        | -73.10536522        | 40.77510799        | -73.02832212        |
+| 35.0817408         | -106.6230283        | 35.0819418         | -106.6230923        |
+| 40.77516834        | -73.02845296        | 40.81846385        | -73.10531971        |
+| 35.1938476         | -106.6258852        | 35.2035218         | -106.6725549        |
+| 35.2035218         | -106.6725549        | 35.2035218         | -106.6725549        |
+| 40.77496948        | -73.02817251        | 40.77496785        | -73.02810906        |
+| 35.184148          | -106.6598948        | 35.1596352         | -106.5846409        |
+| 35.1596352         | -106.5846409        | 35.1596352         | -106.5846409        |
+| 0.00000000         | 0.00000000          | 0.00000000         | 0.00000000          |
+| 40.84453773        | -73.05324630        | 40.84453773        | -73.05324630        |
+| 35.17451806        | -106.59038904       | 35.20337884        | -106.67251367       |
+| 35.12189170        | -106.70180147       | 35.11019312        | -106.60727212       |
+| 35.0752329         | -106.6429461        | 35.2015232         | -106.6678337        |
+| 35.0857561         | -106.59552          | 35.0858831         | -106.5954915        |
+| 35.19686053        | -106.66062159       | NULL               | NULL                |
+| 35.0880548         | -106.5921082        | 35.0874663         | -106.603808         |
+| 35.0930244         | -106.6042019        | 35.1732737         | -106.6801612        |
+| 35.1732737         | -106.6801612        | 35.2035075         | -106.6725335        |
+| 35.20533287        | -106.65137828       | NULL               | NULL                |
+| 35.2035491         | -106.6725728        | 35.2035219         | -106.672554         |
+| 35.2035226         | -106.6725515        | 35.2034884         | -106.6725637        |
+| 35.2034905         | -106.6725027        | 35.2035402         | -106.672469         |
+| 35.1801372         | -106.6643861        | 35.1913991         | -106.6558417        |
+| 35.1913991         | -106.6558417        | 35.1913991         | -106.6558417        |
+| 35.1785125         | -106.6263672        | 35.1762967         | -106.6064742        |
+| 35.1743864         | -106.6004847        | 35.1757472         | -106.5865831        |
+| 35.1584873         | -106.5891019        | 35.1440738         | -106.5934179        |
+| 35.1356258         | -106.6105264        | 35.1087532         | -106.6090529        |
+| 35.1027767         | -106.5803544        | 35.0994236         | -106.5688285        |
++--------------------+---------------------+--------------------+---------------------+
+1300 rows in set (0.00 sec)
+
++----+-----------------------+
+| id | AVG(`hours_recorded`) |
++----+-----------------------+
+|  5 |                149492 |
+|  6 |                  1242 |
+|  7 |                  3000 |
+|  8 |                  4422 |
+| 23 |                  1243 |
+| 24 |                    37 |
+| 25 |                    13 |
+| 26 |                     6 |
+| 27 |                     8 |
+| 28 |                    26 |
+| 29 |                    36 |
+| 30 |                    30 |
+| 31 |                    20 |
+| 32 |                     9 |
+| 33 |                     7 |
+| 34 |                     0 |
+| 35 |                     5 |
+| 36 |                    18 |
+| 37 |                     0 |
+| 38 |                     0 |
+| 39 |                     0 |
+| 40 |                     0 |
+| 41 |                     0 |
+| 42 |                     0 |
+| 43 |                     0 |
+| 44 |                     0 |
+| 45 |                     0 |
+| 46 |                     3 |
+| 47 |                    10 |
+| 48 |                    10 |
+| 49 |                    26 |
+| 50 |                    11 |
+| 51 |                     6 |
+| 52 |                    10 |
+| 53 |                    20 |
+| 54 |                    26 |
+| 55 |                     8 |
+| 56 |                     9 |
+| 57 |                     7 |
+| 58 |                    21 |
+| 59 |                  NULL |
+| 60 |                    19 |
+| 61 |                    32 |
+| 62 |                    23 |
+| 63 |                    20 |
+| 64 |                   168 |
+| 65 |                   109 |
+| 66 |                   151 |
+| 67 |                    34 |
+| 68 |                    76 |
+| 69 |                    28 |
+| 70 |                    19 |
+| 71 |                    34 |
+| 72 |                    13 |
+| 73 |                    18 |
+| 74 |                    28 |
+| 75 |                    10 |
+| 76 |                 87001 |
+| 77 |                    21 |
+| 78 |                     4 |
+| 79 |                    21 |
+| 80 |                    66 |
+| 81 |                   279 |
+| 82 |                   117 |
+| 83 |                    32 |
+| 84 |                    46 |
+| 85 |                   201 |
+| 86 |                   156 |
+| 87 |                    56 |
+| 88 |                    68 |
+| 89 |                    73 |
+| 90 |                    28 |
+| 91 |                    17 |
+| 92 |                    28 |
+| 93 |                    13 |
+| 94 |                    14 |
+| 95 |                     7 |
+| 96 |                     5 |
++----+-----------------------+
+78 rows in set (0.00 sec)
+

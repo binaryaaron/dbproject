@@ -1,0 +1,140 @@
+mysql> 
+mysql> source ./update.sql
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+Rows matched: 1  Changed: 0  Warnings: 0
+
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> drop index if exists id on driving_schools;
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    4598799
+Current database: nialzcom_school_drive_control
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'if exists id on driving_schools' at line 1
+mysql> alter table driving_schools drop index id;
+ERROR 1091 (42000): Can't DROP 'id'; check that column/key exists
+mysql> describe driving_schools;
++----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| id             | int(11) unsigned | NO   | PRI | NULL    | auto_increment |
+| name           | varchar(255)     | YES  |     | NULL    |                |
+| email          | varchar(255)     | YES  | MUL | NULL    |                |
+| img_path       | varchar(255)     | YES  |     | NULL    |                |
+| address        | varchar(255)     | YES  | MUL | NULL    |                |
+| phone          | varchar(255)     | YES  | MUL | NULL    |                |
+| city           | varchar(255)     | YES  |     | NULL    |                |
+| state          | varchar(255)     | YES  |     | NULL    |                |
+| guided_drive   | int(11)          | YES  |     | NULL    |                |
+| standard_drive | int(11)          | YES  |     | NULL    |                |
+| _active        | int(11)          | YES  |     | NULL    |                |
++----------------+------------------+------+-----+---------+----------------+
+11 rows in set (0.00 sec)
+
+mysql> alter table driving_schools drop index email;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe driving_schools;
++----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| id             | int(11) unsigned | NO   | PRI | NULL    | auto_increment |
+| name           | varchar(255)     | YES  |     | NULL    |                |
+| email          | varchar(255)     | YES  |     | NULL    |                |
+| img_path       | varchar(255)     | YES  |     | NULL    |                |
+| address        | varchar(255)     | YES  | MUL | NULL    |                |
+| phone          | varchar(255)     | YES  | MUL | NULL    |                |
+| city           | varchar(255)     | YES  |     | NULL    |                |
+| state          | varchar(255)     | YES  |     | NULL    |                |
+| guided_drive   | int(11)          | YES  |     | NULL    |                |
+| standard_drive | int(11)          | YES  |     | NULL    |                |
+| _active        | int(11)          | YES  |     | NULL    |                |
++----------------+------------------+------+-----+---------+----------------+
+11 rows in set (0.00 sec)
+
+mysql> alter table driving_schools drop index email, address, phone;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'address, phone' at line 1
+mysql> alter table driving_schools drop index address, phone;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'phone' at line 1
+mysql> alter table driving_schools drop index address;
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table driving_schools drop index phone;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe driving_schools;
++----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| id             | int(11) unsigned | NO   | PRI | NULL    | auto_increment |
+| name           | varchar(255)     | YES  |     | NULL    |                |
+| email          | varchar(255)     | YES  |     | NULL    |                |
+| img_path       | varchar(255)     | YES  |     | NULL    |                |
+| address        | varchar(255)     | YES  |     | NULL    |                |
+| phone          | varchar(255)     | YES  |     | NULL    |                |
+| city           | varchar(255)     | YES  |     | NULL    |                |
+| state          | varchar(255)     | YES  |     | NULL    |                |
+| guided_drive   | int(11)          | YES  |     | NULL    |                |
+| standard_drive | int(11)          | YES  |     | NULL    |                |
+| _active        | int(11)          | YES  |     | NULL    |                |
++----------------+------------------+------+-----+---------+----------------+
+11 rows in set (0.00 sec)
+
+mysql> create index email on driving_schools(email) using BTREE;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe driving_schools;
++----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| id             | int(11) unsigned | NO   | PRI | NULL    | auto_increment |
+| name           | varchar(255)     | YES  |     | NULL    |                |
+| email          | varchar(255)     | YES  | MUL | NULL    |                |
+| img_path       | varchar(255)     | YES  |     | NULL    |                |
+| address        | varchar(255)     | YES  |     | NULL    |                |
+| phone          | varchar(255)     | YES  |     | NULL    |                |
+| city           | varchar(255)     | YES  |     | NULL    |                |
+| state          | varchar(255)     | YES  |     | NULL    |                |
+| guided_drive   | int(11)          | YES  |     | NULL    |                |
+| standard_drive | int(11)          | YES  |     | NULL    |                |
+| _active        | int(11)          | YES  |     | NULL    |                |
++----------------+------------------+------+-----+---------+----------------+
+11 rows in set (0.00 sec)
+
+mysql> alter table driving_schools drop index email;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> create index email on drivi
+    -> ;
+ERROR 2006 (HY000): MySQL server has gone away
+No connection. Trying to reconnect...
+Connection id:    4604549
+Current database: nialzcom_school_drive_control
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> ls
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ls' at line 1
