@@ -20,9 +20,9 @@ describe ping_results;
 
 select account_id, user_id, count(*) as total_drives from driving_record group by account_id, user_id;
 
-select id, email, phone from users order by email limit 10; 
+select account_id, count(*) as users_in_account from users group by account_id;
 
-select count(*) as number_of_pings from ping_results where account_id = 2;
+select account_id, count(*) as number_of_pings from ping_results group by account_id;
 
 show profiles;
 
@@ -49,8 +49,8 @@ describe ping_results;
 
 select account_id, user_id, count(*) as total_drives from driving_record group by account_id, user_id;
 
-select id, email, phone from users order by email limit 10; 
+select account_id, count(*) as users_in_account from users group by account_id;
 
-select count(*) as number_of_pings from ping_results where account_id = 2;
+select account_id, count(*) as number_of_pings from ping_results group by account_id;
 
 show profiles;
