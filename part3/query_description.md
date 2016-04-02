@@ -1,6 +1,6 @@
-# query description
+# query descriptions -- Aaron Gonzales and Nialls Chavez
 
-## Aaron Gonzales, Nialls Chavez
+
 This file contains the description and code for various queries in our database.
 
 
@@ -34,8 +34,8 @@ GROUP BY `user_id` HAVING COUNT(*) > 1
 
 ####  Join 1
 
-```{.sql}
 Gets the users name, contact information, drive id, and driving school name.
+```{.sql}
 SELECT `user`.`name`, `user`.`phone`, `driving_record`.`id`, `driving_school`.`name`  from `user` 
 LEFT JOIN `driving_record` ON `user`.`id` = `driving_record`.`user_id` 
 LEFT JOIN `driving_school` ON `user`.`ds_id` = `driving_school`.`id` 
@@ -64,6 +64,7 @@ SELECT `id`,`company_name` FROM `vendors`
 
 ### group by query
 
+Group by without aggregates is valid in mysql, but tends to be non-useful in most cases. There are cases in which it can be used similarly to `DISTINCT` but this is not useful. We will include the below query, despite the presence of aggregate queries in other sections.
 
 ```{.sql}
 SELECT * FROM `users` GROUP BY `birthdate`
@@ -73,7 +74,7 @@ SELECT * FROM `users` GROUP BY `birthdate`
 ### order by query
 Gets the number of users of each type.
 ```{.sql}
-SELECT COUNT(`user_type`), `user_type` FROM `users` 
+SELECT `user_type`, COUNT(`user_type`) FROM `users` 
 GROUP BY `user_type`;
 ```
 
@@ -86,6 +87,7 @@ SELECT DISTINCT `start_lat`,`start_long`,`end_lat`,`end_long` from `driving_reco
 
 
 ### aggregate query
+Gets the average number of hours driven by a user.
 
 ```{.sql}
 SELECT `id`, AVG(`hours_recorded`) from `drivers_log` 
@@ -149,6 +151,8 @@ INSERT INTO `driving_schools` (`id`, `name`, `email`, `img_path`, `address`, `ph
 
 
 ## Indices
+
+Our indices are created upon building the tables, but in our index.sql file you will see that they are dropped and added again for testing. We are including the create table statements here.
 
 
 Creates the driving record table and places indices on both account_id and user_id, as they are important lookup operations.
